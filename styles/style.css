@@ -217,7 +217,7 @@ nav a:hover {
 
 h1 {
   text-transform: uppercase;
-  padding-top: 30%;
+  padding-top: 25%;
   z-index: 20;
   position: absolute;
   left: 0;
@@ -368,4 +368,33 @@ h1 {
 
 .profileText {
   width: 50%;
+}
+
+.gallery .wrapper {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.gallery ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 5%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.gallery li {
+  width: calc(100% / 3 - 10px);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+footer {
+  background-color: black;
+}
+
+footer p {
+  color: white;
+  text-align: center;
 }
