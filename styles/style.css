@@ -36,7 +36,7 @@ img {
 
 button {
   background-color: #4CEEA7;
-  padding: 5px;
+  padding: 10px;
   border: none;
 }
 
@@ -70,12 +70,14 @@ h4 {
 }
 
 nav {
+  font-size: 1rem;
   text-align: center;
   line-height: 29px;
   letter-spacing: 1px;
 }
 
 button {
+  font-size: 1rem;
   text-align: center;
   line-height: 32px;
   letter-spacing: 1px;
@@ -83,6 +85,7 @@ button {
 
 p {
   font-family: "Roboto", sans-serif;
+  font-size: 1rem;
   line-height: 32px;
 }
 
@@ -124,7 +127,7 @@ img {
 
 button {
   background-color: #4CEEA7;
-  padding: 5px;
+  padding: 10px;
   border: none;
 }
 
@@ -158,12 +161,14 @@ h4 {
 }
 
 nav {
+  font-size: 1rem;
   text-align: center;
   line-height: 29px;
   letter-spacing: 1px;
 }
 
 button {
+  font-size: 1rem;
   text-align: center;
   line-height: 32px;
   letter-spacing: 1px;
@@ -171,6 +176,7 @@ button {
 
 p {
   font-family: "Roboto", sans-serif;
+  font-size: 1rem;
   line-height: 32px;
 }
 
@@ -193,6 +199,7 @@ nav {
 }
 
 nav ul {
+  padding-top: 2%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -210,8 +217,8 @@ nav a:hover {
 
 h1 {
   text-transform: uppercase;
-  padding-top: 20%;
-  z-index: 10;
+  padding-top: 30%;
+  z-index: 20;
   position: absolute;
   left: 0;
   right: 0;
@@ -226,6 +233,7 @@ h1 {
   position: absolute;
   right: 0;
   top: 40%;
+  z-index: 10;
 }
 
 #about {
@@ -240,5 +248,74 @@ h1 {
 }
 
 .aboutText p {
-  padding-top: 10px;
+  padding-top: 2%;
+}
+
+.info {
+  position: relative;
+  height: 110vh;
+}
+
+.unlockPic img {
+  width: 40%;
+  -webkit-box-shadow: 40px 40px 0 0 #FDFA69;
+          box-shadow: 40px 40px 0 0 #FDFA69;
+  position: absolute;
+  left: 0;
+  top: -40px;
+}
+
+.unlockFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.unlockText {
+  width: 50%;
+  padding-top: 3%;
+}
+
+.gear {
+  margin-top: 15%;
+}
+
+.gearFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.gearText {
+  width: 50%;
+}
+
+.gearText h3 {
+  text-align: right;
+}
+
+.gearText button {
+  margin-left: 70%;
+  margin-top: 0;
+}
+
+.gearPic img {
+  width: 40%;
+  -webkit-box-shadow: -40px 40px 0 0 #FDFA69;
+          box-shadow: -40px 40px 0 0 #FDFA69;
+  position: absolute;
+  right: 0;
+  top: 60%;
+}
+
+.links {
+  background-color: #EFFDF3;
+  padding: 50px 0;
+  margin-top: 5%;
 }

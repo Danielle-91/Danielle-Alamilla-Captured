@@ -18,6 +18,7 @@ nav{
 }
 
 nav ul{
+    padding-top: 2%;
     display: flex;
     width: 100%;
     flex-basis: 500px;
@@ -31,8 +32,8 @@ nav a:hover{
 
 h1{
     text-transform: uppercase;
-    padding-top: 20%;
-    z-index: 10;
+    padding-top: 30%;
+    z-index: 20;
     position: absolute;
     left: 0;
     right: 0;
@@ -47,6 +48,7 @@ h1{
     position: absolute;
     right: 0;
     top: 40%;
+    z-index: 10;
 }
 
 // ABOUT STYLING
@@ -62,6 +64,69 @@ h1{
     text-align: center;
 }
 .aboutText p{
-    padding-top: 10px;
+    padding-top: 2%;
+    
+}
 
+// INFO STYLING
+
+.info{
+    position: relative;
+    height: 110vh;
+
+}
+.unlockPic img{
+    width: 40%;
+    box-shadow: 40px 40px 0 0 #FDFA69;
+    position: absolute;
+    left: 0;
+    top: -40px;
+}
+
+.unlockFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.unlockText{
+    width: 50%;
+    padding-top: 3%;
+}
+
+.gear{
+    margin-top: 15%;
+}
+
+.gearFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gearText{
+    width: 50%;
+}
+
+.gearText h3{
+    text-align: right;
+}
+
+.gearText button{
+    margin-left: 70%;
+    margin-top: 0;
+}
+
+.gearPic img{
+    width: 40%;
+    box-shadow: -40px 40px 0 0 #FDFA69;
+    position: absolute;
+    right: 0;
+    top: 60%;
+}
+
+// LINKS STYLING
+
+.links{
+    background-color: #EFFDF3;
+    padding: 50px 0;
+    margin-top: 5%;
 }
