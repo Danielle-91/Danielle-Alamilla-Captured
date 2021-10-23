@@ -72,8 +72,6 @@ h1{
 
 .info{
     position: relative;
-    height: 110vh;
-
 }
 .unlockPic img{
     width: 40%;
@@ -90,7 +88,7 @@ h1{
 
 .unlockText{
     width: 50%;
-    padding-top: 3%;
+    padding-top: 5%;
 }
 
 .gear{
@@ -129,4 +127,62 @@ h1{
     background-color: #EFFDF3;
     padding: 50px 0;
     margin-top: 5%;
+}
+
+.links .fas{
+    font-size: 2rem;
+    background-color: #4ceea7;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.linksFlex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.picks, .community, .blog, .touch{
+    width: 50%;
+    padding-bottom: 5%;
+}
+
+.links h4{
+    // text-align: center;
+}
+
+.topLine{
+    // display: inline
+}
+
+// BANNER STYLING
+
+.banner img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+// PROFILE STYLING
+
+.profile{
+    background-color: #EFFDF3;
+    padding: 100px 0;
+}
+
+.profileFlex{
+    display: flex;
+
+}
+
+.profilePic{
+    width: 50%;
+}
+
+.profilePic img{
+    box-shadow: 40px 40px 0 0 #FDFA69;
+
+}
+
+.profileText{
+    width: 50%;
 }
