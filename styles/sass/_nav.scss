@@ -1,0 +1,24 @@
+@import 'general';
+@import 'typography';
+
+nav{
+    display: flex;
+    margin-right: 8%;
+}
+
+nav ul{
+    padding-top: 1%;
+    display: flex;
+    width: 100%;
+    flex-basis: 500px;
+    justify-content: flex-end;
+}
+
+nav ul li{
+    margin-left: 5%;
+}
+nav a:hover,
+nav a:focus,
+nav a:focus-within{
+    border-bottom: 3px solid #4ceea7;
+}

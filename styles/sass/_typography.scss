@@ -1,4 +1,4 @@
-h1, h2, h3, h4, nav, button, email{
+h1, h2, h3, h4, nav, button, .contactEmail{
     font-family: 'Playfair Display', serif;
     color: black;
 }
@@ -8,17 +8,22 @@ h1, h2, h3, h4, button{
 }
 
 
-h1{
+.homeTitle{
     font-size: 6.9rem;
     text-align: center;
 }
 
-h2{
+.contactTitle, .blogTitle{
     font-size: 4rem;
     line-height: 92px;
 }
 
-h3{
+.contactEmail{
+    font-size: 1.3rem;
+    letter-spacing: 1.1px;
+}
+
+.whatIs, .profileTitle{
     font-size: 2.1rem;
     letter-spacing: 1px;
 }

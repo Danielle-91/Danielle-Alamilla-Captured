@@ -1,9 +1,11 @@
 @import 'general';
 @import 'typography';
+@import 'nav';
+@import 'footer';
 
 // HEADER STYLING
 
-header{
+.homeHead{
     background-image: url('../assets/header-image.jpg');
     height: 100vh;
     background-size: cover;
@@ -12,27 +14,7 @@ header{
     margin: 0 auto;
 }
 
-nav{
-    display: flex;
-    justify-content: flex-end;
-}
-
-nav ul{
-    padding-top: 1%;
-    display: flex;
-    width: 100%;
-    flex-basis: 500px;
-    justify-content: space-evenly;
-}
-
-
-nav a:hover,
-nav a:focus,
-nav a:focus-within{
-    border-bottom: 3px solid #4ceea7;
-}
-
-h1{
+.homeTitle{
     text-transform: uppercase;
     z-index: 20;
     position: absolute;
@@ -57,8 +39,7 @@ h1{
 
 #about{
     background-color: #EFFDF3;
-    height: 80vh;
-    padding: 10px 0;
+    padding: 0;
 }
 
 .aboutText{
@@ -74,6 +55,7 @@ h1{
 
 .info{
     position: relative;
+    background: white;
 }
 .unlockPic img{
     width: 40%;
@@ -120,10 +102,10 @@ h1{
     box-shadow: -40px 40px 0 0 #FDFA69;
     position: absolute;
     right: 0;
-    top: 60%;
+    top: 65%;
 }
 
-// LINKS STYLING
+// LINKS STYLING - COME BACK TO ICONS
 
 .links{
     background-color: #EFFDF3;
@@ -146,14 +128,6 @@ h1{
 .picks, .community, .blog, .touch{
     width: 50%;
     padding-bottom: 5%;
-}
-
-.links h4{
-    // text-align: center;
-}
-
-.topLine{
-    // display: inline
 }
 
 // BANNER STYLING
@@ -191,6 +165,9 @@ h1{
 
 // GALLERY STYLING
 
+.gallery{
+    background: white;
+}
 .gallery ul{
     display: flex;
     padding: 5% 0;
@@ -201,12 +178,4 @@ h1{
     width: calc(100% / 3);
 }
 
-footer{
-    background-color: black;
-}
-
-footer p{
-    color: white;
-    text-align: center;
-}
 

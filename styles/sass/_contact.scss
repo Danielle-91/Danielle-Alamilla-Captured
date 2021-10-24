@@ -1,2 +1,80 @@
 @import 'general';
 @import 'typography';
+@import 'nav';
+@import 'footer';
+
+.contactHead{
+    background-image: url(../assets/contact-header.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.contactTitle{
+    margin: 10%;
+    padding-left: 30%;
+}
+
+.contactMain{
+    background-color: #EFFDF3;
+    display: flex;
+    height: 80vh;
+    padding: 50px 0;
+}
+
+.contactDetails{
+    width: 50%;
+    padding-top: 5%;
+}
+
+.socialMedia{
+    display: flex;
+}
+
+.socialMedia i{
+    font-size: 1rem;
+    margin-left: 30px;
+}
+
+form{
+    box-shadow: -40px 40px 0 0 #FDFA69;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    width: 60%;
+    height: 80%;
+    position: absolute;
+    top: 70%;
+    right:3%;
+}
+
+input[type=text]{
+    width: 50%;
+}
+
+input[type=email]{
+    width: 50%;
+}
+
+.inlines{
+    display: flex;
+    width: 100%;
+}
+
+input[type=text]{
+    margin-right: 50px;
+}
+input[type=text], input[type=email]{
+    border: none;
+    border-bottom: 2px solid #4CEEA7;
+    margin-bottom: 40px;
+}
+
+textarea{
+    border: 2px solid #4CEEA7;
+}
+
+form button{
+    margin-top: 10px;
+}
