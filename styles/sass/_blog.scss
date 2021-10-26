@@ -1,2 +1,54 @@
 @import 'general';
 @import 'typography';
+@import 'nav';
+@import 'footer';
+
+
+// HEADER STYLE
+.blogHead{
+    background-image: url('../assets/blog-header.jpg');
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.blogHead h1{
+    margin: 10%;
+    padding-left: 30%;
+    padding-top: 5%;
+}
+
+.blogPic{
+    height: 80%;
+    width: 60%;
+    object-fit: fill;
+    box-shadow: -40px 40px 0 0 #FDFA69;
+    position: absolute;
+    right: 0;
+    top: 60%;
+    z-index: 10;
+}
+
+// MAIN GENERAL STYLE
+.mainBlog{
+    background-color: #EFFDF3;
+    display: flex;
+}
+
+// SIDEBAR STYLE
+
+
+
+.sideBar img{
+    height: 90%;
+    width: 90%;
+}
+
+// BLOG POST STYLE
+
+.blogPost{
+    border-left: 10px solid #FDFA69;
+    border-bottom: 10px solid #FDFA69;
+    display: flex;
+    height: 30%;
+}

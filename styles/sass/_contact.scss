@@ -10,6 +10,7 @@
     position: relative;
 }
 
+
 .contactTitle{
     margin: 10%;
     padding-left: 30%;
@@ -36,7 +37,7 @@
     margin-left: 30px;
 }
 
-form{
+.contactForm{
     box-shadow: -40px 40px 0 0 #FDFA69;
     background: white;
     display: flex;
@@ -49,32 +50,32 @@ form{
     right:3%;
 }
 
-input[type=text]{
+.contactForm input[type=text]{
     width: 50%;
 }
 
-input[type=email]{
+.contactForm input[type=email]{
     width: 50%;
 }
 
-.inlines{
+.contactForm .inlines{
     display: flex;
     width: 100%;
 }
 
-input[type=text]{
+.contactForm input[type=text]{
     margin-right: 50px;
 }
-input[type=text], input[type=email]{
+.contactForm input[type=text], .contactForm input[type=email]{
     border: none;
     border-bottom: 2px solid #4CEEA7;
     margin-bottom: 40px;
 }
 
-textarea{
+.contactForm textarea{
     border: 2px solid #4CEEA7;
 }
 
-form button{
+.contactForm button{
     margin-top: 10px;
 }
