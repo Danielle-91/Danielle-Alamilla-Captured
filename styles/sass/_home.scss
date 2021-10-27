@@ -149,11 +149,12 @@
 
 .profileFlex{
     display: flex;
-
+    flex-basis: 100%;
+    flex: 1 0 auto;
 }
 
 .profilePic{
-    width: 50%;
+    width: 40%;
 }
 
 .profilePic img{
@@ -162,7 +163,8 @@
 }
 
 .profileText{
-    width: 50%;
+    width: 60%;
+    margin-left: 2%;
 }
 
 // GALLERY STYLING
@@ -232,7 +234,5 @@
     .profileText{
         margin-left: 8%;
     }
-
-
 }
 

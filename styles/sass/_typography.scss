@@ -57,6 +57,8 @@ p, .sideText ul{
 // RESPONSIVE STYLING
 
 @media (max-width: 940px){
+
+    // HOME PAGE
     .homeTitle{
         font-size: 5.8rem;
     }
@@ -71,5 +73,11 @@ p, .sideText ul{
 
     .profileText p{
         font-size: 0.8rem;
+    }
+
+    // CONTACT PAGE
+
+    .contactTitle{
+        font-size: 3.5rem;
     }
 }

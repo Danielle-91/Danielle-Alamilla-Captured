@@ -352,6 +352,10 @@ p, .sideText ul {
   .profileText p {
     font-size: 0.8rem;
   }
+
+  .contactTitle {
+    font-size: 3.5rem;
+  }
 }
 html {
   font-size: 125%;
@@ -477,6 +481,10 @@ p, .sideText ul {
 
   .profileText p {
     font-size: 0.8rem;
+  }
+
+  .contactTitle {
+    font-size: 3.5rem;
   }
 }
 nav {
@@ -875,6 +883,10 @@ p, .sideText ul {
   .profileText p {
     font-size: 0.8rem;
   }
+
+  .contactTitle {
+    font-size: 3.5rem;
+  }
 }
 html {
   font-size: 125%;
@@ -1000,6 +1012,10 @@ p, .sideText ul {
 
   .profileText p {
     font-size: 0.8rem;
+  }
+
+  .contactTitle {
+    font-size: 3.5rem;
   }
 }
 nav {
@@ -1196,10 +1212,15 @@ footer p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
 }
 
 .profilePic {
-  width: 50%;
+  width: 40%;
 }
 
 .profilePic img {
@@ -1208,7 +1229,8 @@ footer p {
 }
 
 .profileText {
-  width: 50%;
+  width: 60%;
+  margin-left: 2%;
 }
 
 .gallery {
@@ -1621,6 +1643,10 @@ p, .sideText ul {
   .profileText p {
     font-size: 0.8rem;
   }
+
+  .contactTitle {
+    font-size: 3.5rem;
+  }
 }
 html {
   font-size: 125%;
@@ -1746,6 +1772,10 @@ p, .sideText ul {
 
   .profileText p {
     font-size: 0.8rem;
+  }
+
+  .contactTitle {
+    font-size: 3.5rem;
   }
 }
 nav {
@@ -1880,6 +1910,40 @@ footer p {
   margin-top: 10px;
 }
 
+@media (max-width: 940px) {
+  .blogHead {
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+  }
+
+  .contactTitle {
+    margin: 0 auto;
+    margin-left: 5%;
+    padding: 0;
+    padding-top: 30%;
+  }
+
+  .contactForm {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    height: auto;
+    width: auto;
+    top: 1100px;
+    right: 0;
+    left: 0;
+  }
+
+  .contactMain {
+    height: auto;
+  }
+
+  .contactDetails {
+    margin: 0 auto;
+    margin-top: 60%;
+  }
+}
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -2233,6 +2297,10 @@ p, .sideText ul {
   .profileText p {
     font-size: 0.8rem;
   }
+
+  .contactTitle {
+    font-size: 3.5rem;
+  }
 }
 html {
   font-size: 125%;
@@ -2358,6 +2426,10 @@ p, .sideText ul {
 
   .profileText p {
     font-size: 0.8rem;
+  }
+
+  .contactTitle {
+    font-size: 3.5rem;
   }
 }
 nav {

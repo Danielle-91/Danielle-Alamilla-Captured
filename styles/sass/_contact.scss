@@ -4,6 +4,7 @@
 @import 'nav';
 @import 'footer';
 
+// HEADER STYLING
 .contactHead{
     background-image: url(../assets/contact-header.jpg);
     background-size: cover;
@@ -17,6 +18,7 @@
     padding-left: 30%;
 }
 
+// BODY STYLING
 .contactMain{
     background-color: #EFFDF3;
     display: flex;
@@ -24,6 +26,7 @@
     padding: 50px 0;
 }
 
+// CONTACT STYLING
 .contactDetails{
     width: 50%;
     padding-top: 5%;
@@ -37,6 +40,8 @@
     font-size: 1rem;
     margin-left: 30px;
 }
+
+// FORM STYLING
 
 .contactForm{
     box-shadow: -40px 40px 0 0 #FDFA69;
@@ -79,4 +84,41 @@
 
 .contactForm button{
     margin-top: 10px;
+}
+
+// RESPONSIVE STYLING
+
+@media(max-width: 940px){
+    .blogHead{
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+    }
+
+    .contactTitle{
+        margin: 0 auto;
+        margin-left: 5%;
+        padding: 0;
+        padding-top: 30%;
+    }
+
+    .contactForm{
+        box-shadow: none;
+        height: auto;
+        width: auto;
+        top: 1100px;
+        right: 0;
+        left: 0;
+    }
+
+    .contactMain{
+        height: auto;
+    }
+
+    .contactDetails{
+        margin: 0 auto;
+        margin-top: 60%;
+    }
+
 }
