@@ -37,14 +37,12 @@
 
 // SIDEBAR STYLE
 
-
-
 .sideBar img{
     height: 90%;
     width: 90%;
 }
 
-// BLOG POST STYLE - USE GRIDS
+// BLOG POST STYLE
 
 .gridContainer{
     display: grid;
@@ -52,6 +50,8 @@
     grid-template-rows: 50% 50%;
     gap: 40px;
 }
+
+// SIDEBAR STYLE
 
 .sideBar{
     grid-row-start: 1;
@@ -61,9 +61,9 @@
 
 .sideText{
     background: white;
-    height: 800px;
-    width: 400px;
-    padding: 35px;
+    height: 900px;
+    width: 350px;
+    padding: 40px;
     margin-left: 13%;
     padding-top: 65%;
     margin-top: -70%;
@@ -83,15 +83,64 @@
     color: #4ceea7;
 }
 
+// BLOG POST STYLE
+
 .blogPost, .comments{
     grid-column-start: 2;
     grid-column-end: 2;
 }
 
 .blogPost{
-    border-left: 10px solid #FDFA69;
-    border-bottom: 10px solid #FDFA69;
+    border-left: 5px solid #FDFA69;
+    border-bottom: 5px solid #FDFA69;
     padding: 20px;
     padding-top: 40%;
-    margin-left: 25px;
+    margin-left: 8.5%;
+}
+
+// COMMENT SECTION STYLE
+
+.comments h3{
+    margin-left: 5%;
+}
+
+.Jeremy img, .Julia img{
+    width: 10%;
+    height: 10%;
+}
+
+.Jeremy{
+    width: 100%;
+    margin: 5%;
+}
+
+.Julia{
+    width: 100%;
+    margin: 5%;
+
+}
+
+.comments p{
+    width: 70%;
+    text-align: left;
+    margin-left: 90px;
+}
+.commentForm{
+    margin: 10% 10% 10% 0;
+}
+
+.commentForm input[type=text], .commentForm input[type=email]{
+    border: none;
+    background-color: #effdf3;
+    border-bottom: 2px solid #4CEEA7;
+    margin-bottom: 5%;
+    width: 40%;
+}
+.commentForm textarea{
+    border: 2px solid #4CEEA7;
+    background-color: #effdf3;
+}
+.commentForm button{
+    margin-top: 5%;
+    width: 100%;
 }
