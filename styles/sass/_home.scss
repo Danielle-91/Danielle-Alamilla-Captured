@@ -181,3 +181,58 @@
 }
 
 
+// RESPONSIVE STYLING
+
+@media (max-width: 940px){
+    // HEADER
+
+    .homeHead{
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+    }
+
+    .headerBox{
+        display: none;
+    }
+
+    // ABOUT
+
+    .aboutText{
+        padding: 10%;
+    }
+
+    // INFO
+
+    .unlockPic img{
+        top: 40px;
+    }
+
+    .gearPic img{
+        top: 60%;
+    }
+    .gearText button{
+    margin-left: 50%;
+    margin-top: 0;
+    }
+
+    // LINKS
+
+    .links .fas{
+        font-size: 1.5rem;
+    }
+
+    // PROFILE
+
+    .profilePic{
+        width: 40%;
+    }
+
+    .profileText{
+        margin-left: 8%;
+    }
+
+
+}
+

@@ -336,6 +336,23 @@ p, .sideText ul {
   line-height: 32px;
 }
 
+@media (max-width: 940px) {
+  .homeTitle {
+    font-size: 5.8rem;
+  }
+
+  .linksFlex p {
+    font-size: 0.9rem;
+  }
+
+  .profileTitle {
+    font-size: 1.9rem;
+  }
+
+  .profileText p {
+    font-size: 0.8rem;
+  }
+}
 html {
   font-size: 125%;
 }
@@ -445,6 +462,23 @@ p, .sideText ul {
   line-height: 32px;
 }
 
+@media (max-width: 940px) {
+  .homeTitle {
+    font-size: 5.8rem;
+  }
+
+  .linksFlex p {
+    font-size: 0.9rem;
+  }
+
+  .profileTitle {
+    font-size: 1.9rem;
+  }
+
+  .profileText p {
+    font-size: 0.8rem;
+  }
+}
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -825,6 +859,23 @@ p, .sideText ul {
   line-height: 32px;
 }
 
+@media (max-width: 940px) {
+  .homeTitle {
+    font-size: 5.8rem;
+  }
+
+  .linksFlex p {
+    font-size: 0.9rem;
+  }
+
+  .profileTitle {
+    font-size: 1.9rem;
+  }
+
+  .profileText p {
+    font-size: 0.8rem;
+  }
+}
 html {
   font-size: 125%;
 }
@@ -934,6 +985,23 @@ p, .sideText ul {
   line-height: 32px;
 }
 
+@media (max-width: 940px) {
+  .homeTitle {
+    font-size: 5.8rem;
+  }
+
+  .linksFlex p {
+    font-size: 0.9rem;
+  }
+
+  .profileTitle {
+    font-size: 1.9rem;
+  }
+
+  .profileText p {
+    font-size: 0.8rem;
+  }
+}
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1159,6 +1227,47 @@ footer p {
   margin: 10px;
 }
 
+@media (max-width: 940px) {
+  .homeHead {
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+  }
+
+  .headerBox {
+    display: none;
+  }
+
+  .aboutText {
+    padding: 10%;
+  }
+
+  .unlockPic img {
+    top: 40px;
+  }
+
+  .gearPic img {
+    top: 60%;
+  }
+
+  .gearText button {
+    margin-left: 50%;
+    margin-top: 0;
+  }
+
+  .links .fas {
+    font-size: 1.5rem;
+  }
+
+  .profilePic {
+    width: 40%;
+  }
+
+  .profileText {
+    margin-left: 8%;
+  }
+}
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -1496,6 +1605,23 @@ p, .sideText ul {
   line-height: 32px;
 }
 
+@media (max-width: 940px) {
+  .homeTitle {
+    font-size: 5.8rem;
+  }
+
+  .linksFlex p {
+    font-size: 0.9rem;
+  }
+
+  .profileTitle {
+    font-size: 1.9rem;
+  }
+
+  .profileText p {
+    font-size: 0.8rem;
+  }
+}
 html {
   font-size: 125%;
 }
@@ -1605,6 +1731,23 @@ p, .sideText ul {
   line-height: 32px;
 }
 
+@media (max-width: 940px) {
+  .homeTitle {
+    font-size: 5.8rem;
+  }
+
+  .linksFlex p {
+    font-size: 0.9rem;
+  }
+
+  .profileTitle {
+    font-size: 1.9rem;
+  }
+
+  .profileText p {
+    font-size: 0.8rem;
+  }
+}
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2074,6 +2217,23 @@ p, .sideText ul {
   line-height: 32px;
 }
 
+@media (max-width: 940px) {
+  .homeTitle {
+    font-size: 5.8rem;
+  }
+
+  .linksFlex p {
+    font-size: 0.9rem;
+  }
+
+  .profileTitle {
+    font-size: 1.9rem;
+  }
+
+  .profileText p {
+    font-size: 0.8rem;
+  }
+}
 html {
   font-size: 125%;
 }
@@ -2183,6 +2343,23 @@ p, .sideText ul {
   line-height: 32px;
 }
 
+@media (max-width: 940px) {
+  .homeTitle {
+    font-size: 5.8rem;
+  }
+
+  .linksFlex p {
+    font-size: 0.9rem;
+  }
+
+  .profileTitle {
+    font-size: 1.9rem;
+  }
+
+  .profileText p {
+    font-size: 0.8rem;
+  }
+}
 nav {
   display: -webkit-box;
   display: -ms-flexbox;

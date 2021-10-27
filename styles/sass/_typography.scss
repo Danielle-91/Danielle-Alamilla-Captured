@@ -33,8 +33,6 @@ h4{
     letter-spacing: 1px;
 }
 
-// EMAIL STYLING HERE
-
 nav, .sideText ul, .sideText p{
     font-size: 1rem;
     text-align: center;
@@ -54,4 +52,24 @@ p, .sideText ul{
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     line-height: 32px;
+}
+
+// RESPONSIVE STYLING
+
+@media (max-width: 940px){
+    .homeTitle{
+        font-size: 5.8rem;
+    }
+
+    .linksFlex p{
+        font-size: 0.9rem;
+    }
+
+    .profileTitle{
+    font-size: 1.9rem;
+    }
+
+    .profileText p{
+        font-size: 0.8rem;
+    }
 }
