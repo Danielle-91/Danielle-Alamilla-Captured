@@ -450,18 +450,19 @@ nav {
   display: -ms-flexbox;
   display: flex;
   margin-right: 8%;
-  width: 100%;
 }
 
 nav ul {
   padding-top: 1%;
-  margin-left: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -ms-flex-preferred-size: 500px;
-      flex-basis: 500px;
+  -ms-flex-preferred-size: 550px;
+      flex-basis: 550px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -938,18 +939,19 @@ nav {
   display: -ms-flexbox;
   display: flex;
   margin-right: 8%;
-  width: 100%;
 }
 
 nav ul {
   padding-top: 1%;
-  margin-left: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -ms-flex-preferred-size: 500px;
-      flex-basis: 500px;
+  -ms-flex-preferred-size: 550px;
+      flex-basis: 550px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -1608,18 +1610,19 @@ nav {
   display: -ms-flexbox;
   display: flex;
   margin-right: 8%;
-  width: 100%;
 }
 
 nav ul {
   padding-top: 1%;
-  margin-left: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -ms-flex-preferred-size: 500px;
-      flex-basis: 500px;
+  -ms-flex-preferred-size: 550px;
+      flex-basis: 550px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -2185,18 +2188,19 @@ nav {
   display: -ms-flexbox;
   display: flex;
   margin-right: 8%;
-  width: 100%;
 }
 
 nav ul {
   padding-top: 1%;
-  margin-left: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -ms-flex-preferred-size: 500px;
-      flex-basis: 500px;
+  -ms-flex-preferred-size: 550px;
+      flex-basis: 550px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
