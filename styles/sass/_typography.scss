@@ -80,4 +80,34 @@ p, .sideText ul{
     .contactTitle{
         font-size: 3.5rem;
     }
+
+    // BLOG PAGE
+
+    .sideText h4, .blogPost h2{
+        font-size: 1.4rem;
+    }
+
+    .sideText p, .sideText ul{
+        font-size: 0.8rem;
+    }
+
+    .blogPost p{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px){
+    // HOME PAGE
+    .homeTitle{
+        font-size: 4.9rem;
+    }
+
+    .links h4{
+        font-size: 1.4rem;
+    }
+
+    
+    // CONTACT PAGE
+
+    // BLOG PAGE
 }

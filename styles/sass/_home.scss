@@ -197,7 +197,7 @@
         background-position: left;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 80vh;
+        height: 70vh;
     }
 
     .headerBox{
@@ -241,3 +241,21 @@
     }
 }
 
+@media (max-width: 768px){
+    .homeTitle{
+        margin-left: 25%;
+    }
+
+    .gearText h3{
+        text-align: left;
+    }
+    .gearText button{
+        margin-left: 0;
+    }
+
+    .links .fas{
+        font-size: 1.3rem;
+        right: 0;
+        top: 0;
+    }
+}

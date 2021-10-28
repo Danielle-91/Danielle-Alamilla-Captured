@@ -356,6 +356,27 @@ p, .sideText ul {
   .contactTitle {
     font-size: 3.5rem;
   }
+
+  .sideText h4, .blogPost h2 {
+    font-size: 1.4rem;
+  }
+
+  .sideText p, .sideText ul {
+    font-size: 0.8rem;
+  }
+
+  .blogPost p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 768px) {
+  .homeTitle {
+    font-size: 4.9rem;
+  }
+
+  .links h4 {
+    font-size: 1.4rem;
+  }
 }
 html {
   font-size: 125%;
@@ -486,6 +507,27 @@ p, .sideText ul {
   .contactTitle {
     font-size: 3.5rem;
   }
+
+  .sideText h4, .blogPost h2 {
+    font-size: 1.4rem;
+  }
+
+  .sideText p, .sideText ul {
+    font-size: 0.8rem;
+  }
+
+  .blogPost p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 768px) {
+  .homeTitle {
+    font-size: 4.9rem;
+  }
+
+  .links h4 {
+    font-size: 1.4rem;
+  }
 }
 nav {
   display: -webkit-box;
@@ -520,6 +562,23 @@ nav a:focus-within {
   border-bottom: 3px solid #4ceea7;
 }
 
+nav i {
+  font-size: 2.5rem;
+  position: absolute;
+  right: 50px;
+  top: 20px;
+  visibility: hidden;
+}
+
+@media (max-width: 768px) {
+  nav i {
+    visibility: visible;
+  }
+
+  nav ul {
+    display: none;
+  }
+}
 footer {
   background-color: black;
 }
@@ -887,6 +946,27 @@ p, .sideText ul {
   .contactTitle {
     font-size: 3.5rem;
   }
+
+  .sideText h4, .blogPost h2 {
+    font-size: 1.4rem;
+  }
+
+  .sideText p, .sideText ul {
+    font-size: 0.8rem;
+  }
+
+  .blogPost p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 768px) {
+  .homeTitle {
+    font-size: 4.9rem;
+  }
+
+  .links h4 {
+    font-size: 1.4rem;
+  }
 }
 html {
   font-size: 125%;
@@ -1017,6 +1097,27 @@ p, .sideText ul {
   .contactTitle {
     font-size: 3.5rem;
   }
+
+  .sideText h4, .blogPost h2 {
+    font-size: 1.4rem;
+  }
+
+  .sideText p, .sideText ul {
+    font-size: 0.8rem;
+  }
+
+  .blogPost p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 768px) {
+  .homeTitle {
+    font-size: 4.9rem;
+  }
+
+  .links h4 {
+    font-size: 1.4rem;
+  }
 }
 nav {
   display: -webkit-box;
@@ -1051,6 +1152,23 @@ nav a:focus-within {
   border-bottom: 3px solid #4ceea7;
 }
 
+nav i {
+  font-size: 2.5rem;
+  position: absolute;
+  right: 50px;
+  top: 20px;
+  visibility: hidden;
+}
+
+@media (max-width: 768px) {
+  nav i {
+    visibility: visible;
+  }
+
+  nav ul {
+    display: none;
+  }
+}
 footer {
   background-color: black;
 }
@@ -1258,7 +1376,7 @@ footer p {
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 70vh;
   }
 
   .headerBox {
@@ -1292,6 +1410,25 @@ footer p {
 
   .profileText {
     margin-left: 8%;
+  }
+}
+@media (max-width: 768px) {
+  .homeTitle {
+    margin-left: 25%;
+  }
+
+  .gearText h3 {
+    text-align: left;
+  }
+
+  .gearText button {
+    margin-left: 0;
+  }
+
+  .links .fas {
+    font-size: 1.3rem;
+    right: 0;
+    top: 0;
   }
 }
 html {
@@ -1651,6 +1788,27 @@ p, .sideText ul {
   .contactTitle {
     font-size: 3.5rem;
   }
+
+  .sideText h4, .blogPost h2 {
+    font-size: 1.4rem;
+  }
+
+  .sideText p, .sideText ul {
+    font-size: 0.8rem;
+  }
+
+  .blogPost p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 768px) {
+  .homeTitle {
+    font-size: 4.9rem;
+  }
+
+  .links h4 {
+    font-size: 1.4rem;
+  }
 }
 html {
   font-size: 125%;
@@ -1781,6 +1939,27 @@ p, .sideText ul {
   .contactTitle {
     font-size: 3.5rem;
   }
+
+  .sideText h4, .blogPost h2 {
+    font-size: 1.4rem;
+  }
+
+  .sideText p, .sideText ul {
+    font-size: 0.8rem;
+  }
+
+  .blogPost p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 768px) {
+  .homeTitle {
+    font-size: 4.9rem;
+  }
+
+  .links h4 {
+    font-size: 1.4rem;
+  }
 }
 nav {
   display: -webkit-box;
@@ -1815,6 +1994,23 @@ nav a:focus-within {
   border-bottom: 3px solid #4ceea7;
 }
 
+nav i {
+  font-size: 2.5rem;
+  position: absolute;
+  right: 50px;
+  top: 20px;
+  visibility: hidden;
+}
+
+@media (max-width: 768px) {
+  nav i {
+    visibility: visible;
+  }
+
+  nav ul {
+    display: none;
+  }
+}
 footer {
   background-color: black;
 }
@@ -2305,6 +2501,27 @@ p, .sideText ul {
   .contactTitle {
     font-size: 3.5rem;
   }
+
+  .sideText h4, .blogPost h2 {
+    font-size: 1.4rem;
+  }
+
+  .sideText p, .sideText ul {
+    font-size: 0.8rem;
+  }
+
+  .blogPost p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 768px) {
+  .homeTitle {
+    font-size: 4.9rem;
+  }
+
+  .links h4 {
+    font-size: 1.4rem;
+  }
 }
 html {
   font-size: 125%;
@@ -2435,6 +2652,27 @@ p, .sideText ul {
   .contactTitle {
     font-size: 3.5rem;
   }
+
+  .sideText h4, .blogPost h2 {
+    font-size: 1.4rem;
+  }
+
+  .sideText p, .sideText ul {
+    font-size: 0.8rem;
+  }
+
+  .blogPost p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 768px) {
+  .homeTitle {
+    font-size: 4.9rem;
+  }
+
+  .links h4 {
+    font-size: 1.4rem;
+  }
 }
 nav {
   display: -webkit-box;
@@ -2469,6 +2707,23 @@ nav a:focus-within {
   border-bottom: 3px solid #4ceea7;
 }
 
+nav i {
+  font-size: 2.5rem;
+  position: absolute;
+  right: 50px;
+  top: 20px;
+  visibility: hidden;
+}
+
+@media (max-width: 768px) {
+  nav i {
+    visibility: visible;
+  }
+
+  nav ul {
+    display: none;
+  }
+}
 footer {
   background-color: black;
 }
@@ -2502,7 +2757,6 @@ footer p {
   position: absolute;
   right: 0;
   top: 60%;
-  z-index: 10;
 }
 
 .mainBlog {
@@ -2542,6 +2796,10 @@ footer p {
   margin-bottom: 10px;
 }
 
+.sideText .bold {
+  font-weight: bold;
+}
+
 .sideText li {
   text-align: left;
 }
@@ -2562,7 +2820,7 @@ footer p {
   border-bottom: 5px solid #FDFA69;
   padding: 20px;
   padding-top: 40%;
-  margin-left: 8.5%;
+  margin-left: 11%;
 }
 
 .comments h3 {
@@ -2612,4 +2870,56 @@ footer p {
 .commentForm button {
   margin-top: 5%;
   width: 100%;
+}
+
+@media (max-width: 940px) {
+  .blogHead {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+  }
+
+  .blogHead h1 {
+    padding-top: 20%;
+  }
+
+  .blogPic {
+    height: 30%;
+    width: 40%;
+    -o-object-fit: fill;
+       object-fit: fill;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    right: 5%;
+    top: 810px;
+  }
+
+  .gridContainer {
+    gap: 5px;
+  }
+
+  .sideText {
+    background: white;
+    height: 900px;
+    width: 350px;
+    padding: 40px;
+    margin-left: 0;
+    padding-top: 65%;
+    margin-top: -70%;
+    text-align: center;
+  }
+
+  .blogPost {
+    border-left: none;
+    border-bottom: 5px solid #FDFA69;
+    padding: 0;
+    padding-top: 40%;
+    margin: 0 auto;
+  }
+
+  .commentForm {
+    height: 50%;
+    width: 50%;
+  }
 }

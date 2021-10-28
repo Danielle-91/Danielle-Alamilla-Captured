@@ -27,7 +27,7 @@
     position: absolute;
     right: 0;
     top: 60%;
-    z-index: 10;
+    // z-index: 10;
 }
 
 // MAIN GENERAL STYLE
@@ -74,6 +74,10 @@
     margin-bottom: 10px;
 }
 
+.sideText .bold{
+    font-weight: bold;
+}
+
 .sideText li{
     text-align: left;
 }
@@ -95,7 +99,7 @@
     border-bottom: 5px solid #FDFA69;
     padding: 20px;
     padding-top: 40%;
-    margin-left: 8.5%;
+    margin-left: 11%;
 }
 
 // COMMENT SECTION STYLE
@@ -145,4 +149,61 @@
 .commentForm button{
     margin-top: 5%;
     width: 100%;
+}
+
+// RESPONSIVE STYLING
+
+@media(max-width: 940px){
+
+    // HEADER
+    .blogHead{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    }
+
+    .blogHead h1{
+        padding-top: 20%;
+    }
+
+    .blogPic{
+    height: 30%;
+    width: 40%;
+    object-fit: fill;
+    box-shadow: none;
+    right: 5%;
+    top: 810px;
+}
+
+.gridContainer{
+    gap: 5px;
+}
+
+// SIDEBAR
+
+.sideText{
+    background: white;
+    height: 900px;
+    width: 350px;
+    padding: 40px;
+    margin-left: 0;
+    padding-top: 65%;
+    margin-top: -70%;
+    text-align: center;
+}
+
+// BLOG
+
+.blogPost{
+    border-left: none;
+    border-bottom: 5px solid #FDFA69;
+    padding: 0;
+    padding-top: 40%;
+    margin: 0 auto;
+}
+.commentForm{
+    height: 50%;
+    width: 50%;
+}
 }
