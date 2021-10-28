@@ -357,6 +357,10 @@ p, .sideText ul {
     font-size: 3.5rem;
   }
 
+  .blogTitle {
+    font-size: 3rem;
+  }
+
   .sideText h4, .blogPost h2 {
     font-size: 1.4rem;
   }
@@ -376,6 +380,14 @@ p, .sideText ul {
 
   .links h4 {
     font-size: 1.4rem;
+  }
+
+  .contactTitle {
+    font-size: 2.8rem;
+  }
+
+  .blogTitle {
+    font-size: 2.7rem;
   }
 }
 html {
@@ -508,6 +520,10 @@ p, .sideText ul {
     font-size: 3.5rem;
   }
 
+  .blogTitle {
+    font-size: 3rem;
+  }
+
   .sideText h4, .blogPost h2 {
     font-size: 1.4rem;
   }
@@ -527,6 +543,14 @@ p, .sideText ul {
 
   .links h4 {
     font-size: 1.4rem;
+  }
+
+  .contactTitle {
+    font-size: 2.8rem;
+  }
+
+  .blogTitle {
+    font-size: 2.7rem;
   }
 }
 nav {
@@ -947,6 +971,10 @@ p, .sideText ul {
     font-size: 3.5rem;
   }
 
+  .blogTitle {
+    font-size: 3rem;
+  }
+
   .sideText h4, .blogPost h2 {
     font-size: 1.4rem;
   }
@@ -966,6 +994,14 @@ p, .sideText ul {
 
   .links h4 {
     font-size: 1.4rem;
+  }
+
+  .contactTitle {
+    font-size: 2.8rem;
+  }
+
+  .blogTitle {
+    font-size: 2.7rem;
   }
 }
 html {
@@ -1098,6 +1134,10 @@ p, .sideText ul {
     font-size: 3.5rem;
   }
 
+  .blogTitle {
+    font-size: 3rem;
+  }
+
   .sideText h4, .blogPost h2 {
     font-size: 1.4rem;
   }
@@ -1117,6 +1157,14 @@ p, .sideText ul {
 
   .links h4 {
     font-size: 1.4rem;
+  }
+
+  .contactTitle {
+    font-size: 2.8rem;
+  }
+
+  .blogTitle {
+    font-size: 2.7rem;
   }
 }
 nav {
@@ -1789,6 +1837,10 @@ p, .sideText ul {
     font-size: 3.5rem;
   }
 
+  .blogTitle {
+    font-size: 3rem;
+  }
+
   .sideText h4, .blogPost h2 {
     font-size: 1.4rem;
   }
@@ -1808,6 +1860,14 @@ p, .sideText ul {
 
   .links h4 {
     font-size: 1.4rem;
+  }
+
+  .contactTitle {
+    font-size: 2.8rem;
+  }
+
+  .blogTitle {
+    font-size: 2.7rem;
   }
 }
 html {
@@ -1940,6 +2000,10 @@ p, .sideText ul {
     font-size: 3.5rem;
   }
 
+  .blogTitle {
+    font-size: 3rem;
+  }
+
   .sideText h4, .blogPost h2 {
     font-size: 1.4rem;
   }
@@ -1959,6 +2023,14 @@ p, .sideText ul {
 
   .links h4 {
     font-size: 1.4rem;
+  }
+
+  .contactTitle {
+    font-size: 2.8rem;
+  }
+
+  .blogTitle {
+    font-size: 2.7rem;
   }
 }
 nav {
@@ -2111,18 +2183,18 @@ footer p {
 }
 
 @media (max-width: 940px) {
-  .blogHead {
+  .contactHead {
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 60vh;
   }
 
   .contactTitle {
     margin: 0 auto;
-    margin-left: 5%;
+    margin-left: 500px;
     padding: 0;
-    padding-top: 30%;
+    padding-top: 10%;
   }
 
   .contactForm {
@@ -2130,7 +2202,7 @@ footer p {
             box-shadow: none;
     height: auto;
     width: auto;
-    top: 1100px;
+    top: 550px;
     right: 0;
     left: 0;
   }
@@ -2142,6 +2214,12 @@ footer p {
   .contactDetails {
     margin: 0 auto;
     margin-top: 60%;
+  }
+}
+@media (max-width: 768px) {
+  .contactTitle {
+    padding-top: 20%;
+    margin-left: 450px;
   }
 }
 html {
@@ -2502,6 +2580,10 @@ p, .sideText ul {
     font-size: 3.5rem;
   }
 
+  .blogTitle {
+    font-size: 3rem;
+  }
+
   .sideText h4, .blogPost h2 {
     font-size: 1.4rem;
   }
@@ -2521,6 +2603,14 @@ p, .sideText ul {
 
   .links h4 {
     font-size: 1.4rem;
+  }
+
+  .contactTitle {
+    font-size: 2.8rem;
+  }
+
+  .blogTitle {
+    font-size: 2.7rem;
   }
 }
 html {
@@ -2653,6 +2743,10 @@ p, .sideText ul {
     font-size: 3.5rem;
   }
 
+  .blogTitle {
+    font-size: 3rem;
+  }
+
   .sideText h4, .blogPost h2 {
     font-size: 1.4rem;
   }
@@ -2672,6 +2766,14 @@ p, .sideText ul {
 
   .links h4 {
     font-size: 1.4rem;
+  }
+
+  .contactTitle {
+    font-size: 2.8rem;
+  }
+
+  .blogTitle {
+    font-size: 2.7rem;
   }
 }
 nav {
@@ -2741,7 +2843,7 @@ footer p {
   position: relative;
 }
 
-.blogHead h1 {
+.blogTitle {
   margin: 10%;
   padding-left: 30%;
   padding-top: 5%;
@@ -2877,11 +2979,11 @@ footer p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    height: 50vh;
   }
 
-  .blogHead h1 {
-    padding-top: 20%;
+  .blogTitle {
+    padding-top: 2%;
   }
 
   .blogPic {
@@ -2921,5 +3023,10 @@ footer p {
   .commentForm {
     height: 50%;
     width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .blogTitle {
+    padding-top: 10%;
   }
 }

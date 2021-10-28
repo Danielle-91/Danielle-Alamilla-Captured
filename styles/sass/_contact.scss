@@ -89,25 +89,25 @@
 // RESPONSIVE STYLING
 
 @media(max-width: 940px){
-    .blogHead{
+    .contactHead{
         background-position: left;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 80vh;
+        height: 60vh;
     }
 
     .contactTitle{
         margin: 0 auto;
-        margin-left: 5%;
+        margin-left: 500px;
         padding: 0;
-        padding-top: 30%;
+        padding-top: 10%;
     }
 
     .contactForm{
         box-shadow: none;
         height: auto;
         width: auto;
-        top: 1100px;
+        top: 550px;
         right: 0;
         left: 0;
     }
@@ -120,5 +120,11 @@
         margin: 0 auto;
         margin-top: 60%;
     }
+}
 
+@media (max-width: 768px){
+    .contactTitle{
+        padding-top: 20%;
+        margin-left: 450px;
+    }
 }

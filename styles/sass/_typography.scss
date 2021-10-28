@@ -82,7 +82,9 @@ p, .sideText ul{
     }
 
     // BLOG PAGE
-
+    .blogTitle{
+        font-size: 3rem;
+    }
     .sideText h4, .blogPost h2{
         font-size: 1.4rem;
     }
@@ -106,8 +108,14 @@ p, .sideText ul{
         font-size: 1.4rem;
     }
 
-    
-    // CONTACT PAGE
 
+    // CONTACT PAGE
+    .contactTitle{
+        font-size: 2.8rem;
+    }
     // BLOG PAGE
+
+    .blogTitle{
+        font-size: 2.7rem;
+    }
 }
