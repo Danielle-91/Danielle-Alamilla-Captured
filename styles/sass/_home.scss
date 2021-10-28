@@ -134,7 +134,6 @@
     width: 50%;
     padding: 5%;
     padding-bottom: 5%;
-
 }
 
 // BANNER STYLING
@@ -155,7 +154,6 @@
 .profileFlex{
     display: flex;
     flex-basis: 100%;
-    flex: 1 0 auto;
 }
 
 .profilePic{
@@ -164,7 +162,6 @@
 
 .profilePic img{
     box-shadow: 40px 40px 0 0 #FDFA69;
-
 }
 
 .profileText{
@@ -198,6 +195,10 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 70vh;
+    }
+
+    .homeTitle{
+        left: 150px;
     }
 
     .headerBox{
@@ -243,7 +244,7 @@
 
 @media (max-width: 768px){
     .homeTitle{
-        margin-left: 25%;
+        margin-left: 9%;
     }
 
     .gearText h3{
@@ -258,4 +259,98 @@
         right: 0;
         top: 0;
     }
+}
+
+@media (max-width: 480px){
+    .homeHead{
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+
+    .homeTitle{
+        margin-left: 0;
+    }
+
+    .unlockPic img{
+    width: auto;
+    box-shadow: none;
+    left: 0;
+    right: 0;
+    margin-top: 2%;
+    }
+
+.unlockText{
+    width: 100%;
+    margin-top: 85%;
+}
+
+    .gearPic img{
+    width: auto;
+    box-shadow: none;
+    left: 0;
+    right: 0;
+    top: 55%;
+    }
+
+.gearText{
+    width: 100%;
+    margin-top: 85%;
+}
+
+.links p{
+    visibility: hidden;
+}
+
+.linksFlex{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.picks, .community, .blog, .touch{
+    width: auto;
+    padding: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.profileFlex{
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+}
+
+.profilePic{
+    width: 100%;
+    margin-left: 80px;
+}
+
+.profilePic img{
+    box-shadow: none;
+}
+.profileText{
+    width: 100%;
+    text-align: center;
+}
+
+.gallery{
+    background-color: #4ceea7;
+}
+
+.gallery ul{
+    display: flex;
+    flex-basis: 480px;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    padding: 5% 0;
+}
+
+.gallery li{
+    width: calc(100% / 2 - 20px);
+    margin: 10px;
+}
+
+.gallery li:last-of-type{
+    width: 100%;
+}
 }
