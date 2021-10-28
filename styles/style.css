@@ -394,6 +394,10 @@ p, .sideText ul {
   .homeTitle {
     font-size: 3rem;
   }
+
+  .contactTitle {
+    font-size: 2.5rem;
+  }
 }
 html {
   font-size: 125%;
@@ -561,6 +565,10 @@ p, .sideText ul {
 @media (max-width: 480px) {
   .homeTitle {
     font-size: 3rem;
+  }
+
+  .contactTitle {
+    font-size: 2.5rem;
   }
 }
 nav {
@@ -1018,6 +1026,10 @@ p, .sideText ul {
   .homeTitle {
     font-size: 3rem;
   }
+
+  .contactTitle {
+    font-size: 2.5rem;
+  }
 }
 html {
   font-size: 125%;
@@ -1185,6 +1197,10 @@ p, .sideText ul {
 @media (max-width: 480px) {
   .homeTitle {
     font-size: 3rem;
+  }
+
+  .contactTitle {
+    font-size: 2.5rem;
   }
 }
 nav {
@@ -2006,6 +2022,10 @@ p, .sideText ul {
   .homeTitle {
     font-size: 3rem;
   }
+
+  .contactTitle {
+    font-size: 2.5rem;
+  }
 }
 html {
   font-size: 125%;
@@ -2173,6 +2193,10 @@ p, .sideText ul {
 @media (max-width: 480px) {
   .homeTitle {
     font-size: 3rem;
+  }
+
+  .contactTitle {
+    font-size: 2.5rem;
   }
 }
 nav {
@@ -2362,6 +2386,18 @@ footer p {
   .contactTitle {
     padding-top: 20%;
     margin-left: 450px;
+  }
+}
+@media (max-width: 480px) {
+  .contactTitle {
+    margin-left: 0;
+    padding-right: 20%;
+    padding-left: 9%;
+    padding-top: 0;
+  }
+
+  .contactForm {
+    height: 30%;
   }
 }
 html {
@@ -2759,6 +2795,10 @@ p, .sideText ul {
   .homeTitle {
     font-size: 3rem;
   }
+
+  .contactTitle {
+    font-size: 2.5rem;
+  }
 }
 html {
   font-size: 125%;
@@ -2926,6 +2966,10 @@ p, .sideText ul {
 @media (max-width: 480px) {
   .homeTitle {
     font-size: 3rem;
+  }
+
+  .contactTitle {
+    font-size: 2.5rem;
   }
 }
 nav {
