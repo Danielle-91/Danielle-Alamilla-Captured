@@ -52,3 +52,13 @@ button{
     padding: 10px;
     border: none;
 }
+
+.blogWrap{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+// REMOVE COLUMNS AND ROWS ON FORM, ADD CLASS TO TEXTAREA
+// form width 100% or 90% and margin 0 auto so it flows with resizing
+// wrapper -> blogWrap
