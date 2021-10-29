@@ -343,7 +343,22 @@
 
 
 @media(max-width: 480px){
-    .blogPost{
-
+    .gridContainer{
+    grid-template-columns: repeat(auto-fill, 160px);
+    grid-template-rows: repeat(28, 100px);
     }
+
+    .blogPost{
+        grid-row-end: 17;
+    }
+
+    .comments{
+        grid-row-start: 18;
+        margin-top: 0;
+    }
+
+    .commentForm form{
+        width: 100%;
+    }
+
 }
