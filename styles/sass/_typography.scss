@@ -1,4 +1,4 @@
-h1, h2, h3, h4, nav, button, .contactEmail{
+h1, h2, h3, h4, nav, button, .contactEmail, .responsiveNav ul{
     font-family: 'Playfair Display', serif;
     color: black;
 }
@@ -33,7 +33,7 @@ h4{
     letter-spacing: 1px;
 }
 
-nav, .sideText ul, .sideText p{
+nav, .sideText ul, .sideText p, .responsiveNav ul{
     font-size: 1rem;
     text-align: center;
     line-height: 29px;
@@ -48,7 +48,7 @@ button{
 }
 
 
-p, .sideText ul{
+p{
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     line-height: 32px;

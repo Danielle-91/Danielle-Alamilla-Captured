@@ -288,7 +288,7 @@ button {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4, nav, button, .contactEmail {
+h1, h2, h3, h4, nav, button, .contactEmail, .responsiveNav ul {
   font-family: "Playfair Display", serif;
   color: black;
 }
@@ -322,7 +322,7 @@ h4 {
   letter-spacing: 1px;
 }
 
-nav, .sideText ul, .sideText p {
+nav, .sideText ul, .sideText p, .responsiveNav ul {
   font-size: 1rem;
   text-align: center;
   line-height: 29px;
@@ -336,7 +336,7 @@ button {
   letter-spacing: 1px;
 }
 
-p, .sideText ul {
+p {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 32px;
@@ -467,7 +467,7 @@ button {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4, nav, button, .contactEmail {
+h1, h2, h3, h4, nav, button, .contactEmail, .responsiveNav ul {
   font-family: "Playfair Display", serif;
   color: black;
 }
@@ -501,7 +501,7 @@ h4 {
   letter-spacing: 1px;
 }
 
-nav, .sideText ul, .sideText p {
+nav, .sideText ul, .sideText p, .responsiveNav ul {
   font-size: 1rem;
   text-align: center;
   line-height: 29px;
@@ -515,7 +515,7 @@ button {
   letter-spacing: 1px;
 }
 
-p, .sideText ul {
+p {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 32px;
@@ -934,7 +934,7 @@ button {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4, nav, button, .contactEmail {
+h1, h2, h3, h4, nav, button, .contactEmail, .responsiveNav ul {
   font-family: "Playfair Display", serif;
   color: black;
 }
@@ -968,7 +968,7 @@ h4 {
   letter-spacing: 1px;
 }
 
-nav, .sideText ul, .sideText p {
+nav, .sideText ul, .sideText p, .responsiveNav ul {
   font-size: 1rem;
   text-align: center;
   line-height: 29px;
@@ -982,7 +982,7 @@ button {
   letter-spacing: 1px;
 }
 
-p, .sideText ul {
+p {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 32px;
@@ -1113,7 +1113,7 @@ button {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4, nav, button, .contactEmail {
+h1, h2, h3, h4, nav, button, .contactEmail, .responsiveNav ul {
   font-family: "Playfair Display", serif;
   color: black;
 }
@@ -1147,7 +1147,7 @@ h4 {
   letter-spacing: 1px;
 }
 
-nav, .sideText ul, .sideText p {
+nav, .sideText ul, .sideText p, .responsiveNav ul {
   font-size: 1rem;
   text-align: center;
   line-height: 29px;
@@ -1161,7 +1161,7 @@ button {
   letter-spacing: 1px;
 }
 
-p, .sideText ul {
+p {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 32px;
@@ -1944,7 +1944,7 @@ button {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4, nav, button, .contactEmail {
+h1, h2, h3, h4, nav, button, .contactEmail, .responsiveNav ul {
   font-family: "Playfair Display", serif;
   color: black;
 }
@@ -1978,7 +1978,7 @@ h4 {
   letter-spacing: 1px;
 }
 
-nav, .sideText ul, .sideText p {
+nav, .sideText ul, .sideText p, .responsiveNav ul {
   font-size: 1rem;
   text-align: center;
   line-height: 29px;
@@ -1992,7 +1992,7 @@ button {
   letter-spacing: 1px;
 }
 
-p, .sideText ul {
+p {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 32px;
@@ -2123,7 +2123,7 @@ button {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4, nav, button, .contactEmail {
+h1, h2, h3, h4, nav, button, .contactEmail, .responsiveNav ul {
   font-family: "Playfair Display", serif;
   color: black;
 }
@@ -2157,7 +2157,7 @@ h4 {
   letter-spacing: 1px;
 }
 
-nav, .sideText ul, .sideText p {
+nav, .sideText ul, .sideText p, .responsiveNav ul {
   font-size: 1rem;
   text-align: center;
   line-height: 29px;
@@ -2171,7 +2171,7 @@ button {
   letter-spacing: 1px;
 }
 
-p, .sideText ul {
+p {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 32px;
@@ -2731,7 +2731,7 @@ button {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4, nav, button, .contactEmail {
+h1, h2, h3, h4, nav, button, .contactEmail, .responsiveNav ul {
   font-family: "Playfair Display", serif;
   color: black;
 }
@@ -2765,7 +2765,7 @@ h4 {
   letter-spacing: 1px;
 }
 
-nav, .sideText ul, .sideText p {
+nav, .sideText ul, .sideText p, .responsiveNav ul {
   font-size: 1rem;
   text-align: center;
   line-height: 29px;
@@ -2779,7 +2779,7 @@ button {
   letter-spacing: 1px;
 }
 
-p, .sideText ul {
+p {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 32px;
@@ -2910,7 +2910,7 @@ button {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4, nav, button, .contactEmail {
+h1, h2, h3, h4, nav, button, .contactEmail, .responsiveNav ul {
   font-family: "Playfair Display", serif;
   color: black;
 }
@@ -2944,7 +2944,7 @@ h4 {
   letter-spacing: 1px;
 }
 
-nav, .sideText ul, .sideText p {
+nav, .sideText ul, .sideText p, .responsiveNav ul {
   font-size: 1rem;
   text-align: center;
   line-height: 29px;
@@ -2958,7 +2958,7 @@ button {
   letter-spacing: 1px;
 }
 
-p, .sideText ul {
+p {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 32px;
@@ -3117,6 +3117,21 @@ footer p {
   background-color: #EFFDF3;
 }
 
+.responsiveNav {
+  visibility: hidden;
+}
+
+.responsiveNav ul {
+  background: #4CEEA7;
+  width: 100%;
+}
+
+.responsiveNav li {
+  display: inline;
+  width: 100%;
+  padding: 100px;
+}
+
 .sideBar img {
   height: 90%;
   width: 90%;
@@ -3260,15 +3275,19 @@ footer p {
     -webkit-box-shadow: none;
             box-shadow: none;
     right: 5%;
-    top: 480px;
+    top: 500px;
+  }
+
+  .gridContainer {
+    grid-template-columns: repeat(auto-fill, 300px);
   }
 
   .sideText {
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 3;
     background: white;
     height: 900px;
-    width: 350px;
+    width: 300px;
     padding: 40px;
     margin-left: 0;
     padding-top: 65%;
@@ -3284,6 +3303,7 @@ footer p {
     padding: 0;
     padding-top: 0;
     margin: 0 auto;
+    text-align: center;
   }
 
   .comments {
@@ -3300,7 +3320,61 @@ footer p {
   }
 }
 @media (max-width: 768px) {
+  .blogHead {
+    width: 100%;
+  }
+
   .blogTitle {
     padding-top: 10%;
+  }
+
+  .responsiveNav {
+    visibility: visible;
+  }
+
+  .sideBar {
+    visibility: hidden;
+  }
+
+  .blogPic {
+    width: 80%;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .gridContainer {
+    grid-template-columns: repeat(auto-fill, 150px);
+    width: 100%;
+  }
+
+  .blogPost {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-end: 13;
+    width: 100%;
+    margin-left: 10%;
+  }
+
+  .comments {
+    grid-column-start: 1;
+    grid-row-start: 13;
+    grid-row-end: 20;
+    margin-top: 5%;
+  }
+
+  .comments .blogWrap {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .commentForm form {
+    width: 100%;
+    margin-left: 5%;
+  }
+
+  .commentForm button {
+    margin-top: 0;
   }
 }
