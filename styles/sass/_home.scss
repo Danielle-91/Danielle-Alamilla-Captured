@@ -243,9 +243,12 @@
 }
 
 @media (max-width: 768px){
+    // HEADER
     .homeTitle{
         margin-left: 9%;
     }
+
+    // INFO
 
     .gearText h3{
         text-align: left;
@@ -253,6 +256,8 @@
     .gearText button{
         margin-left: 0;
     }
+
+    // LINKS
 
     .links .fas{
         font-size: 1.3rem;
@@ -262,6 +267,9 @@
 }
 
 @media (max-width: 480px){
+
+    // HEADER
+
     .homeHead{
         background-position: left;
         background-repeat: no-repeat;
@@ -272,6 +280,8 @@
     .homeTitle{
         margin-left: 0;
     }
+
+    // INFO
 
     .unlockPic img{
     width: auto;
@@ -299,6 +309,8 @@
     margin-top: 85%;
 }
 
+// LINKS
+
 .links p{
     visibility: hidden;
 }
@@ -314,6 +326,8 @@
     padding-bottom: 0;
     text-align: center;
 }
+
+// PROFILE
 
 .profileFlex{
     flex-wrap: wrap;
@@ -332,6 +346,8 @@
     width: 100%;
     text-align: center;
 }
+
+// GALLERY
 
 .gallery{
     background-color: #4ceea7;
