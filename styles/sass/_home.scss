@@ -171,18 +171,58 @@
 
 // GALLERY STYLING
 
-.gallery{
-    background: white;
-}
-.gallery ul{
-    display: flex;
-    padding: 5% 0;
+.carouselWrapper{
+    overflow: hidden;
+    width: 90%;
 }
 
-.gallery li{
-    width: calc(100% / 3);
-    margin: 10px;
+.carousel{
+    transform-style: preserve-3d;
 }
+
+.carouselPhoto{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    padding: 1rem 4rem;
+    z-index: 100;
+    transition: transform 0.5s, opacity 0.5s, z-index 0.5s;
+}
+
+.carouselPhoto.initial, 
+.carouselPhoto.active{
+    opacity: 1;
+    position: relative;
+    z-index: 900;
+}
+
+.carouselPhoto.prev,
+.carouselPhoto.next{
+    z-index: 800;
+}
+
+.carouselPhoto.prev{
+    transform: translateX(-100%);
+}
+
+.carouselPhoto.next{
+    transform: translateX(100%);
+}
+
+// .gallery{
+//     background: white;
+// }
+// .gallery ul{
+//     display: flex;
+//     padding: 5% 0;
+// }
+
+// .gallery li{
+//     width: calc(100% / 3);
+//     margin: 10px;
+// }
 
 
 // RESPONSIVE STYLING
