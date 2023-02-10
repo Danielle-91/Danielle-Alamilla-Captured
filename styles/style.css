@@ -346,35 +346,27 @@ p {
   .homeTitle {
     font-size: 5.8rem;
   }
-
   .linksFlex p {
     font-size: 0.9rem;
   }
-
   .profileTitle {
     font-size: 1.9rem;
   }
-
   .profileText p {
     font-size: 0.8rem;
   }
-
   .contactTitle {
     font-size: 3.5rem;
   }
-
   .blogTitle {
     font-size: 3rem;
   }
-
   .sideText h4, .blogPost h2 {
     font-size: 1.4rem;
   }
-
   .sideText p, .sideText ul {
     font-size: 0.8rem;
   }
-
   .blogPost p {
     font-size: 0.8rem;
     line-height: 30px;
@@ -384,15 +376,12 @@ p {
   .homeTitle {
     font-size: 4.9rem;
   }
-
   .links h4 {
     font-size: 1.4rem;
   }
-
   .contactTitle {
     font-size: 2.8rem;
   }
-
   .blogTitle {
     font-size: 2.7rem;
   }
@@ -401,7 +390,6 @@ p {
   .homeTitle {
     font-size: 3rem;
   }
-
   .contactTitle {
     font-size: 2.5rem;
   }
@@ -525,35 +513,27 @@ p {
   .homeTitle {
     font-size: 5.8rem;
   }
-
   .linksFlex p {
     font-size: 0.9rem;
   }
-
   .profileTitle {
     font-size: 1.9rem;
   }
-
   .profileText p {
     font-size: 0.8rem;
   }
-
   .contactTitle {
     font-size: 3.5rem;
   }
-
   .blogTitle {
     font-size: 3rem;
   }
-
   .sideText h4, .blogPost h2 {
     font-size: 1.4rem;
   }
-
   .sideText p, .sideText ul {
     font-size: 0.8rem;
   }
-
   .blogPost p {
     font-size: 0.8rem;
     line-height: 30px;
@@ -563,15 +543,12 @@ p {
   .homeTitle {
     font-size: 4.9rem;
   }
-
   .links h4 {
     font-size: 1.4rem;
   }
-
   .contactTitle {
     font-size: 2.8rem;
   }
-
   .blogTitle {
     font-size: 2.7rem;
   }
@@ -580,7 +557,6 @@ p {
   .homeTitle {
     font-size: 3rem;
   }
-
   .contactTitle {
     font-size: 2.5rem;
   }
@@ -630,7 +606,6 @@ nav i {
   nav i {
     visibility: visible;
   }
-
   nav ul {
     display: none;
   }
@@ -992,35 +967,27 @@ p {
   .homeTitle {
     font-size: 5.8rem;
   }
-
   .linksFlex p {
     font-size: 0.9rem;
   }
-
   .profileTitle {
     font-size: 1.9rem;
   }
-
   .profileText p {
     font-size: 0.8rem;
   }
-
   .contactTitle {
     font-size: 3.5rem;
   }
-
   .blogTitle {
     font-size: 3rem;
   }
-
   .sideText h4, .blogPost h2 {
     font-size: 1.4rem;
   }
-
   .sideText p, .sideText ul {
     font-size: 0.8rem;
   }
-
   .blogPost p {
     font-size: 0.8rem;
     line-height: 30px;
@@ -1030,15 +997,12 @@ p {
   .homeTitle {
     font-size: 4.9rem;
   }
-
   .links h4 {
     font-size: 1.4rem;
   }
-
   .contactTitle {
     font-size: 2.8rem;
   }
-
   .blogTitle {
     font-size: 2.7rem;
   }
@@ -1047,7 +1011,6 @@ p {
   .homeTitle {
     font-size: 3rem;
   }
-
   .contactTitle {
     font-size: 2.5rem;
   }
@@ -1171,35 +1134,27 @@ p {
   .homeTitle {
     font-size: 5.8rem;
   }
-
   .linksFlex p {
     font-size: 0.9rem;
   }
-
   .profileTitle {
     font-size: 1.9rem;
   }
-
   .profileText p {
     font-size: 0.8rem;
   }
-
   .contactTitle {
     font-size: 3.5rem;
   }
-
   .blogTitle {
     font-size: 3rem;
   }
-
   .sideText h4, .blogPost h2 {
     font-size: 1.4rem;
   }
-
   .sideText p, .sideText ul {
     font-size: 0.8rem;
   }
-
   .blogPost p {
     font-size: 0.8rem;
     line-height: 30px;
@@ -1209,15 +1164,12 @@ p {
   .homeTitle {
     font-size: 4.9rem;
   }
-
   .links h4 {
     font-size: 1.4rem;
   }
-
   .contactTitle {
     font-size: 2.8rem;
   }
-
   .blogTitle {
     font-size: 2.7rem;
   }
@@ -1226,7 +1178,6 @@ p {
   .homeTitle {
     font-size: 3rem;
   }
-
   .contactTitle {
     font-size: 2.5rem;
   }
@@ -1276,7 +1227,6 @@ nav i {
   nav i {
     visibility: visible;
   }
-
   nav ul {
     display: none;
   }
@@ -1293,25 +1243,32 @@ footer p {
 
 .homeHead {
   background-image: url("../assets/header-image.jpg");
-  height: 100vh;
+  height: 95vh;
   background-size: cover;
   background-position: left;
   position: relative;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .homeTitle {
   text-transform: uppercase;
   z-index: 20;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 10px;
+  margin: 80px;
 }
 
 .headerBox {
-  height: 90%;
-  width: 40%;
+  height: 84%;
+  width: 45%;
   -o-object-fit: fill;
      object-fit: fill;
   border-left: 40px solid #FDFA69;
@@ -1319,13 +1276,14 @@ footer p {
   border-bottom: 40px solid #FDFA69;
   position: absolute;
   right: 0;
-  top: 40%;
+  top: 304px;
   z-index: 10;
 }
 
 #about {
   background-color: #EFFDF3;
   padding: 0;
+  margin-top: 0;
 }
 
 .aboutText {
@@ -1424,10 +1382,17 @@ footer p {
       flex-wrap: wrap;
 }
 
-.picks, .community, .blog, .touch {
+.picks,
+.community,
+.blog,
+.touch {
   width: 50%;
   padding: 5%;
   padding-bottom: 5%;
+}
+
+.banner {
+  height: 55vh;
 }
 
 .banner img {
@@ -1440,6 +1405,7 @@ footer p {
 .profile {
   background-color: #EFFDF3;
   padding: 100px 0;
+  margin: 0;
 }
 
 .profileFlex {
@@ -1476,7 +1442,7 @@ footer p {
 }
 
 .gallery li {
-  width: calc(100% / 3);
+  width: 33.3333333333%;
   margin: 10px;
 }
 
@@ -1487,40 +1453,31 @@ footer p {
     background-size: cover;
     height: 70vh;
   }
-
   .homeTitle {
     left: 150px;
   }
-
   .headerBox {
     display: none;
   }
-
   .aboutText {
     padding: 10%;
   }
-
   .unlockPic img {
     top: 40px;
   }
-
   .gearPic img {
     top: 60%;
   }
-
   .gearText button {
     margin-left: 50%;
     margin-top: 0;
   }
-
   .links .fas {
     font-size: 1.5rem;
   }
-
   .profilePic {
     width: 40%;
   }
-
   .profileText {
     margin-left: 8%;
   }
@@ -1529,15 +1486,12 @@ footer p {
   .homeTitle {
     margin-left: 9%;
   }
-
   .gearText h3 {
     text-align: left;
   }
-
   .gearText button {
     margin-left: 0;
   }
-
   .links .fas {
     font-size: 1.3rem;
     right: 0;
@@ -1551,11 +1505,9 @@ footer p {
     background-size: cover;
     height: 40vh;
   }
-
   .homeTitle {
     margin-left: 0;
   }
-
   .unlockPic img {
     width: auto;
     -webkit-box-shadow: none;
@@ -1564,12 +1516,10 @@ footer p {
     right: 0;
     margin-top: 2%;
   }
-
   .unlockText {
     width: 100%;
     margin-top: 85%;
   }
-
   .gearPic img {
     width: auto;
     -webkit-box-shadow: none;
@@ -1578,16 +1528,13 @@ footer p {
     right: 0;
     top: 55%;
   }
-
   .gearText {
     width: 100%;
     margin-top: 85%;
   }
-
   .links p {
     visibility: hidden;
   }
-
   .linksFlex {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1597,14 +1544,15 @@ footer p {
         -ms-flex-pack: center;
             justify-content: center;
   }
-
-  .picks, .community, .blog, .touch {
+  .picks,
+  .community,
+  .blog,
+  .touch {
     width: auto;
     padding: 0;
     padding-bottom: 0;
     text-align: center;
   }
-
   .profileFlex {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -1612,26 +1560,21 @@ footer p {
         -ms-flex: 1 0 auto;
             flex: 1 0 auto;
   }
-
   .profilePic {
     width: 100%;
     margin-left: 80px;
   }
-
   .profilePic img {
     -webkit-box-shadow: none;
             box-shadow: none;
   }
-
   .profileText {
     width: 100%;
     text-align: center;
   }
-
   .gallery {
     background-color: #4ceea7;
   }
-
   .gallery ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1645,12 +1588,10 @@ footer p {
             flex: 1 0 auto;
     padding: 5% 0;
   }
-
   .gallery li {
-    width: calc(100% / 2 - 20px);
+    width: calc(50% - 20px);
     margin: 10px;
   }
-
   .gallery li:last-of-type {
     width: 100%;
   }
@@ -2002,35 +1943,27 @@ p {
   .homeTitle {
     font-size: 5.8rem;
   }
-
   .linksFlex p {
     font-size: 0.9rem;
   }
-
   .profileTitle {
     font-size: 1.9rem;
   }
-
   .profileText p {
     font-size: 0.8rem;
   }
-
   .contactTitle {
     font-size: 3.5rem;
   }
-
   .blogTitle {
     font-size: 3rem;
   }
-
   .sideText h4, .blogPost h2 {
     font-size: 1.4rem;
   }
-
   .sideText p, .sideText ul {
     font-size: 0.8rem;
   }
-
   .blogPost p {
     font-size: 0.8rem;
     line-height: 30px;
@@ -2040,15 +1973,12 @@ p {
   .homeTitle {
     font-size: 4.9rem;
   }
-
   .links h4 {
     font-size: 1.4rem;
   }
-
   .contactTitle {
     font-size: 2.8rem;
   }
-
   .blogTitle {
     font-size: 2.7rem;
   }
@@ -2057,7 +1987,6 @@ p {
   .homeTitle {
     font-size: 3rem;
   }
-
   .contactTitle {
     font-size: 2.5rem;
   }
@@ -2181,35 +2110,27 @@ p {
   .homeTitle {
     font-size: 5.8rem;
   }
-
   .linksFlex p {
     font-size: 0.9rem;
   }
-
   .profileTitle {
     font-size: 1.9rem;
   }
-
   .profileText p {
     font-size: 0.8rem;
   }
-
   .contactTitle {
     font-size: 3.5rem;
   }
-
   .blogTitle {
     font-size: 3rem;
   }
-
   .sideText h4, .blogPost h2 {
     font-size: 1.4rem;
   }
-
   .sideText p, .sideText ul {
     font-size: 0.8rem;
   }
-
   .blogPost p {
     font-size: 0.8rem;
     line-height: 30px;
@@ -2219,15 +2140,12 @@ p {
   .homeTitle {
     font-size: 4.9rem;
   }
-
   .links h4 {
     font-size: 1.4rem;
   }
-
   .contactTitle {
     font-size: 2.8rem;
   }
-
   .blogTitle {
     font-size: 2.7rem;
   }
@@ -2236,7 +2154,6 @@ p {
   .homeTitle {
     font-size: 3rem;
   }
-
   .contactTitle {
     font-size: 2.5rem;
   }
@@ -2286,7 +2203,6 @@ nav i {
   nav i {
     visibility: visible;
   }
-
   nav ul {
     display: none;
   }
@@ -2397,14 +2313,12 @@ footer p {
     background-size: cover;
     height: 60vh;
   }
-
   .contactTitle {
     margin: 0 auto;
     margin-left: 500px;
     padding: 0;
     padding-top: 10%;
   }
-
   .contactForm {
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -2414,11 +2328,9 @@ footer p {
     right: 0;
     left: 0;
   }
-
   .contactMain {
     height: auto;
   }
-
   .contactDetails {
     margin: 0 auto;
     margin-top: 60%;
@@ -2437,7 +2349,6 @@ footer p {
     padding-left: 9%;
     padding-top: 0;
   }
-
   .contactForm {
     height: 30%;
   }
@@ -2789,35 +2700,27 @@ p {
   .homeTitle {
     font-size: 5.8rem;
   }
-
   .linksFlex p {
     font-size: 0.9rem;
   }
-
   .profileTitle {
     font-size: 1.9rem;
   }
-
   .profileText p {
     font-size: 0.8rem;
   }
-
   .contactTitle {
     font-size: 3.5rem;
   }
-
   .blogTitle {
     font-size: 3rem;
   }
-
   .sideText h4, .blogPost h2 {
     font-size: 1.4rem;
   }
-
   .sideText p, .sideText ul {
     font-size: 0.8rem;
   }
-
   .blogPost p {
     font-size: 0.8rem;
     line-height: 30px;
@@ -2827,15 +2730,12 @@ p {
   .homeTitle {
     font-size: 4.9rem;
   }
-
   .links h4 {
     font-size: 1.4rem;
   }
-
   .contactTitle {
     font-size: 2.8rem;
   }
-
   .blogTitle {
     font-size: 2.7rem;
   }
@@ -2844,7 +2744,6 @@ p {
   .homeTitle {
     font-size: 3rem;
   }
-
   .contactTitle {
     font-size: 2.5rem;
   }
@@ -2968,35 +2867,27 @@ p {
   .homeTitle {
     font-size: 5.8rem;
   }
-
   .linksFlex p {
     font-size: 0.9rem;
   }
-
   .profileTitle {
     font-size: 1.9rem;
   }
-
   .profileText p {
     font-size: 0.8rem;
   }
-
   .contactTitle {
     font-size: 3.5rem;
   }
-
   .blogTitle {
     font-size: 3rem;
   }
-
   .sideText h4, .blogPost h2 {
     font-size: 1.4rem;
   }
-
   .sideText p, .sideText ul {
     font-size: 0.8rem;
   }
-
   .blogPost p {
     font-size: 0.8rem;
     line-height: 30px;
@@ -3006,15 +2897,12 @@ p {
   .homeTitle {
     font-size: 4.9rem;
   }
-
   .links h4 {
     font-size: 1.4rem;
   }
-
   .contactTitle {
     font-size: 2.8rem;
   }
-
   .blogTitle {
     font-size: 2.7rem;
   }
@@ -3023,7 +2911,6 @@ p {
   .homeTitle {
     font-size: 3rem;
   }
-
   .contactTitle {
     font-size: 2.5rem;
   }
@@ -3073,7 +2960,6 @@ nav i {
   nav i {
     visibility: visible;
   }
-
   nav ul {
     display: none;
   }
@@ -3262,11 +3148,9 @@ footer p {
     background-size: cover;
     height: 50vh;
   }
-
   .blogTitle {
     padding-top: 2%;
   }
-
   .blogPic {
     height: 75%;
     width: 50%;
@@ -3277,11 +3161,9 @@ footer p {
     right: 5%;
     top: 500px;
   }
-
   .gridContainer {
     grid-template-columns: repeat(auto-fill, 300px);
   }
-
   .sideText {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -3294,7 +3176,6 @@ footer p {
     margin-top: -70%;
     text-align: center;
   }
-
   .blogPost {
     grid-row-start: 5;
     grid-row-end: 12;
@@ -3305,16 +3186,13 @@ footer p {
     margin: 0 auto;
     text-align: center;
   }
-
   .comments {
     margin-top: 25%;
   }
-
   .commentForm {
     grid-column-start: 2;
     grid-column-end: 3;
   }
-
   .commentForm textarea {
     padding-right: 50px;
   }
@@ -3323,30 +3201,24 @@ footer p {
   .blogHead {
     width: 100%;
   }
-
   .blogTitle {
     padding-top: 10%;
   }
-
   .responsiveNav {
     visibility: visible;
   }
-
   .sideBar {
     visibility: hidden;
   }
-
   .blogPic {
     width: 80%;
     margin-left: 50px;
     margin-right: 50px;
   }
-
   .gridContainer {
     grid-template-columns: repeat(auto-fill, 150px);
     width: 100%;
   }
-
   .blogPost {
     text-align: center;
     grid-column-start: 1;
@@ -3355,25 +3227,21 @@ footer p {
     width: 100%;
     margin-left: 10%;
   }
-
   .comments {
     grid-column-start: 1;
     grid-row-start: 13;
     grid-row-end: 20;
     margin-top: 5%;
   }
-
   .comments .blogWrap {
     width: 100%;
     text-align: center;
     margin: 0 auto;
   }
-
   .commentForm form {
     width: 100%;
     margin-left: 5%;
   }
-
   .commentForm button {
     margin-top: 0;
   }
@@ -3383,16 +3251,13 @@ footer p {
     grid-template-columns: repeat(auto-fill, 160px);
     grid-template-rows: repeat(28, 100px);
   }
-
   .blogPost {
     grid-row-end: 17;
   }
-
   .comments {
     grid-row-start: 18;
     margin-top: 0;
   }
-
   .commentForm form {
     width: 100%;
   }
