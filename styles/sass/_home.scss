@@ -133,15 +133,15 @@
 .linksFlex {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .picks,
 .community,
 .blog,
 .touch {
-    width: 50%;
-    padding: 5%;
-    padding-bottom: 5%;
+    width: 538px;
+    padding: 40px;
 }
 
 // BANNER STYLING
@@ -200,6 +200,12 @@
 
 
 // RESPONSIVE STYLING
+
+@media(max-width: 1280px) {
+    .headerBox {
+        top: 210px;
+    }
+}
 
 @media (max-width: 940px) {
     // HEADER

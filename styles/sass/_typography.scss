@@ -74,6 +74,12 @@ p {
 
 // RESPONSIVE STYLING
 
+@media(max-width: 1280px) {
+    .homeTitle {
+        font-size: 4rem;
+    }
+}
+
 @media (max-width: 940px) {
 
     // HOME PAGE
