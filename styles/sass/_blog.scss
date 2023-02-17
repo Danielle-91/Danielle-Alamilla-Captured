@@ -8,7 +8,7 @@
 // HEADER STYLE
 .blogHead {
     background-image: url('../assets/blog-header.jpg');
-    background-size: contain;
+    background-size: cover;
     height: 74vh;
     position: relative;
     display: flex;
@@ -23,8 +23,8 @@
 }
 
 .blogPic {
-    height: 670px;
-    width: 1060px;
+    height: auto;
+    width: clamp(20vw, 56vw, 60vw);
     object-fit: fill;
     box-shadow: -40px 40px 0 0 #FDFA69;
     position: absolute;
@@ -124,7 +124,8 @@ aside {
     grid-row-end: 16;
     border-left: 5px solid #FDFA69;
     border-bottom: 5px solid #FDFA69;
-    padding: 45px;
+    padding: 85px;
+    margin-left: -13px;
 }
 
 .blogPost p {
@@ -220,8 +221,8 @@ aside {
     }
 
     .blogPic {
-        width: 750px;
-        height: 442px;
+        // width: 750px;
+        // height: 442px;
     }
 
     .gridContainer {
@@ -243,8 +244,9 @@ aside {
     .blogPost {
         grid-row-start: 3;
         grid-column-end: 6;
-        padding-top: 115px;
-        margin-left: -4px;
+        padding: 30px;
+        padding-top: 140px;
+        margin-left: 31px;
     }
 
     .blogPost p {
@@ -277,8 +279,8 @@ aside {
     }
 
     .blogPic {
-        height: 75%;
-        width: 50%;
+        // height: 75%;
+        // width: 50%;
         object-fit: fill;
         box-shadow: none;
         right: 5%;
@@ -355,7 +357,7 @@ aside {
     }
 
     .blogPic {
-        width: 80%;
+        // width: 80%;
         margin-left: 50px;
         margin-right: 50px;
     }
