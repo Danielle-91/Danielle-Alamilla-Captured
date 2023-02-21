@@ -3573,6 +3573,9 @@ aside {
   }
 }
 @media (max-width: 1228px) {
+  .gridContainer {
+    grid-template-columns: repeat(auto-fill, 245px);
+  }
   .blogHead {
     display: grid;
   }
@@ -3598,10 +3601,10 @@ aside {
         -ms-flex-pack: justify;
             justify-content: space-between;
     max-width: 1228px;
-    width: 90%;
+    width: 100%;
     background: white;
     height: 51vh;
-    margin: 20px;
+    margin: 0;
   }
   .sideBar img {
     width: 30%;
@@ -3624,11 +3627,10 @@ aside {
   }
   .blogPost {
     grid-column-start: 2;
-    grid-row-start: 7;
-    border: none;
-    padding: 0;
-    padding-top: 150px;
-    margin: 0;
+    grid-column-end: 5;
+    grid-row-start: 12;
+    padding: 30px;
+    margin: 30px;
   }
   .comments {
     grid-column-start: 2;
