@@ -87,16 +87,8 @@ p {
         font-size: 5.8rem;
     }
 
-    .linksFlex p {
-        // font-size: 0.9rem;
-    }
-
     .profileTitle {
         font-size: 1.9rem;
-    }
-
-    .profileText p {
-        // font-size: 0.8rem;
     }
 
     // CONTACT PAGE
@@ -115,13 +107,13 @@ p {
         font-size: 1.4rem;
     }
 
-    // .sideText p,
-    .sideText ul {
+    .sideText ul,
+    .sideText p {
         font-size: 0.8rem;
     }
 
     .blogPost p {
-        // font-size: 0.8rem;
+        font-size: 0.9rem;
         line-height: 30px;
     }
 }
@@ -147,6 +139,10 @@ p {
 
     .blogTitle {
         font-size: 2.7rem;
+    }
+
+    .comments p {
+        font-size: 0.9rem;
     }
 }
 
