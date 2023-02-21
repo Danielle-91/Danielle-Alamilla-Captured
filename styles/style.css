@@ -269,6 +269,10 @@ body {
   padding: 0;
 }
 
+section {
+  width: 100%;
+}
+
 .skip-link {
   position: absolute;
   left: -1000px;
@@ -282,7 +286,10 @@ body {
   left: 0;
 }
 
-h1, h2, h3, h4 p {
+h1,
+h2,
+h3,
+h4 p {
   margin: 0;
   padding: 0;
 }
@@ -402,14 +409,8 @@ p {
   .homeTitle {
     font-size: 5.8rem;
   }
-  .linksFlex p {
-    font-size: 0.9rem;
-  }
   .profileTitle {
     font-size: 1.9rem;
-  }
-  .profileText p {
-    font-size: 0.8rem;
   }
   .contactTitle {
     font-size: 3.5rem;
@@ -421,12 +422,10 @@ p {
   .blogPost h2 {
     font-size: 1.4rem;
   }
-  .sideText p,
   .sideText ul {
     font-size: 0.8rem;
   }
   .blogPost p {
-    font-size: 0.8rem;
     line-height: 30px;
   }
 }
@@ -461,6 +460,10 @@ body {
   padding: 0;
 }
 
+section {
+  width: 100%;
+}
+
 .skip-link {
   position: absolute;
   left: -1000px;
@@ -474,7 +477,10 @@ body {
   left: 0;
 }
 
-h1, h2, h3, h4 p {
+h1,
+h2,
+h3,
+h4 p {
   margin: 0;
   padding: 0;
 }
@@ -594,14 +600,8 @@ p {
   .homeTitle {
     font-size: 5.8rem;
   }
-  .linksFlex p {
-    font-size: 0.9rem;
-  }
   .profileTitle {
     font-size: 1.9rem;
-  }
-  .profileText p {
-    font-size: 0.8rem;
   }
   .contactTitle {
     font-size: 3.5rem;
@@ -613,12 +613,10 @@ p {
   .blogPost h2 {
     font-size: 1.4rem;
   }
-  .sideText p,
   .sideText ul {
     font-size: 0.8rem;
   }
   .blogPost p {
-    font-size: 0.8rem;
     line-height: 30px;
   }
 }
@@ -973,6 +971,10 @@ body {
   padding: 0;
 }
 
+section {
+  width: 100%;
+}
+
 .skip-link {
   position: absolute;
   left: -1000px;
@@ -986,7 +988,10 @@ body {
   left: 0;
 }
 
-h1, h2, h3, h4 p {
+h1,
+h2,
+h3,
+h4 p {
   margin: 0;
   padding: 0;
 }
@@ -1106,14 +1111,8 @@ p {
   .homeTitle {
     font-size: 5.8rem;
   }
-  .linksFlex p {
-    font-size: 0.9rem;
-  }
   .profileTitle {
     font-size: 1.9rem;
-  }
-  .profileText p {
-    font-size: 0.8rem;
   }
   .contactTitle {
     font-size: 3.5rem;
@@ -1125,12 +1124,10 @@ p {
   .blogPost h2 {
     font-size: 1.4rem;
   }
-  .sideText p,
   .sideText ul {
     font-size: 0.8rem;
   }
   .blogPost p {
-    font-size: 0.8rem;
     line-height: 30px;
   }
 }
@@ -1165,6 +1162,10 @@ body {
   padding: 0;
 }
 
+section {
+  width: 100%;
+}
+
 .skip-link {
   position: absolute;
   left: -1000px;
@@ -1178,7 +1179,10 @@ body {
   left: 0;
 }
 
-h1, h2, h3, h4 p {
+h1,
+h2,
+h3,
+h4 p {
   margin: 0;
   padding: 0;
 }
@@ -1298,14 +1302,8 @@ p {
   .homeTitle {
     font-size: 5.8rem;
   }
-  .linksFlex p {
-    font-size: 0.9rem;
-  }
   .profileTitle {
     font-size: 1.9rem;
-  }
-  .profileText p {
-    font-size: 0.8rem;
   }
   .contactTitle {
     font-size: 3.5rem;
@@ -1317,12 +1315,10 @@ p {
   .blogPost h2 {
     font-size: 1.4rem;
   }
-  .sideText p,
   .sideText ul {
     font-size: 0.8rem;
   }
   .blogPost p {
-    font-size: 0.8rem;
     line-height: 30px;
   }
 }
@@ -2039,6 +2035,10 @@ body {
   padding: 0;
 }
 
+section {
+  width: 100%;
+}
+
 .skip-link {
   position: absolute;
   left: -1000px;
@@ -2052,7 +2052,10 @@ body {
   left: 0;
 }
 
-h1, h2, h3, h4 p {
+h1,
+h2,
+h3,
+h4 p {
   margin: 0;
   padding: 0;
 }
@@ -2172,14 +2175,8 @@ p {
   .homeTitle {
     font-size: 5.8rem;
   }
-  .linksFlex p {
-    font-size: 0.9rem;
-  }
   .profileTitle {
     font-size: 1.9rem;
-  }
-  .profileText p {
-    font-size: 0.8rem;
   }
   .contactTitle {
     font-size: 3.5rem;
@@ -2191,12 +2188,10 @@ p {
   .blogPost h2 {
     font-size: 1.4rem;
   }
-  .sideText p,
   .sideText ul {
     font-size: 0.8rem;
   }
   .blogPost p {
-    font-size: 0.8rem;
     line-height: 30px;
   }
 }
@@ -2231,6 +2226,10 @@ body {
   padding: 0;
 }
 
+section {
+  width: 100%;
+}
+
 .skip-link {
   position: absolute;
   left: -1000px;
@@ -2244,7 +2243,10 @@ body {
   left: 0;
 }
 
-h1, h2, h3, h4 p {
+h1,
+h2,
+h3,
+h4 p {
   margin: 0;
   padding: 0;
 }
@@ -2364,14 +2366,8 @@ p {
   .homeTitle {
     font-size: 5.8rem;
   }
-  .linksFlex p {
-    font-size: 0.9rem;
-  }
   .profileTitle {
     font-size: 1.9rem;
-  }
-  .profileText p {
-    font-size: 0.8rem;
   }
   .contactTitle {
     font-size: 3.5rem;
@@ -2383,12 +2379,10 @@ p {
   .blogPost h2 {
     font-size: 1.4rem;
   }
-  .sideText p,
   .sideText ul {
     font-size: 0.8rem;
   }
   .blogPost p {
-    font-size: 0.8rem;
     line-height: 30px;
   }
 }
@@ -2879,6 +2873,10 @@ body {
   padding: 0;
 }
 
+section {
+  width: 100%;
+}
+
 .skip-link {
   position: absolute;
   left: -1000px;
@@ -2892,7 +2890,10 @@ body {
   left: 0;
 }
 
-h1, h2, h3, h4 p {
+h1,
+h2,
+h3,
+h4 p {
   margin: 0;
   padding: 0;
 }
@@ -3012,14 +3013,8 @@ p {
   .homeTitle {
     font-size: 5.8rem;
   }
-  .linksFlex p {
-    font-size: 0.9rem;
-  }
   .profileTitle {
     font-size: 1.9rem;
-  }
-  .profileText p {
-    font-size: 0.8rem;
   }
   .contactTitle {
     font-size: 3.5rem;
@@ -3031,12 +3026,10 @@ p {
   .blogPost h2 {
     font-size: 1.4rem;
   }
-  .sideText p,
   .sideText ul {
     font-size: 0.8rem;
   }
   .blogPost p {
-    font-size: 0.8rem;
     line-height: 30px;
   }
 }
@@ -3071,6 +3064,10 @@ body {
   padding: 0;
 }
 
+section {
+  width: 100%;
+}
+
 .skip-link {
   position: absolute;
   left: -1000px;
@@ -3084,7 +3081,10 @@ body {
   left: 0;
 }
 
-h1, h2, h3, h4 p {
+h1,
+h2,
+h3,
+h4 p {
   margin: 0;
   padding: 0;
 }
@@ -3204,14 +3204,8 @@ p {
   .homeTitle {
     font-size: 5.8rem;
   }
-  .linksFlex p {
-    font-size: 0.9rem;
-  }
   .profileTitle {
     font-size: 1.9rem;
-  }
-  .profileText p {
-    font-size: 0.8rem;
   }
   .contactTitle {
     font-size: 3.5rem;
@@ -3223,12 +3217,10 @@ p {
   .blogPost h2 {
     font-size: 1.4rem;
   }
-  .sideText p,
   .sideText ul {
     font-size: 0.8rem;
   }
   .blogPost p {
-    font-size: 0.8rem;
     line-height: 30px;
   }
 }
@@ -3342,32 +3334,17 @@ footer p {
           box-shadow: -40px 40px 0 0 #FDFA69;
   position: absolute;
   right: 0;
-  top: 60%;
+  top: 44%;
 }
 
 .mainBlog {
   background-color: #EFFDF3;
 }
 
-.responsiveNav {
-  visibility: hidden;
-}
-
-.responsiveNav ul {
-  background: #4CEEA7;
-  width: 100%;
-}
-
-.responsiveNav li {
-  display: inline;
-  width: 100%;
-  padding: 100px;
-}
-
 .gridContainer {
   display: grid;
   grid-template-columns: repeat(auto-fill, 400px);
-  grid-template-rows: repeat(28, 100px);
+  grid-template-rows: repeat(auto-fill, 100px);
   gap: 1px;
 }
 
@@ -3545,6 +3522,21 @@ aside {
   width: 100%;
 }
 
+@media (max-width: 1642px) {
+  .gridContainer {
+    grid-template-columns: repeat(auto-fill, 348px);
+  }
+}
+@media (max-width: 1522px) {
+  .gridContainer {
+    grid-template-columns: repeat(auto-fill, 323px);
+  }
+}
+@media (max-width: 1486px) {
+  .blogPost {
+    padding: 34px;
+  }
+}
 @media (max-width: 1280px) {
   .blogTitle {
     margin-top: 140px;
@@ -3578,6 +3570,69 @@ aside {
   .commentForm input[type=text],
   .commentForm input[type=email] {
     width: 520px;
+  }
+}
+@media (max-width: 1228px) {
+  .blogHead {
+    display: grid;
+  }
+  .blogTitle {
+    margin-top: 0;
+    justify-self: center;
+  }
+  .blogPic {
+    position: static;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .sideBar {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    padding: 0;
+  }
+  aside {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 1228px;
+    width: 90%;
+    background: white;
+    height: 51vh;
+    margin: 20px;
+  }
+  .sideBar img {
+    width: 30%;
+  }
+  .sideText {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+  }
+  .sideAbt,
+  .sideRecent {
+    width: 30%;
+  }
+  .blogPost {
+    grid-column-start: 2;
+    grid-row-start: 7;
+    border: none;
+    padding: 0;
+    padding-top: 150px;
+    margin: 0;
+  }
+  .comments {
+    grid-column-start: 2;
+    grid-row-start: 25;
   }
 }
 @media (max-width: 940px) {

@@ -68,7 +68,7 @@ button {
 
 p {
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: clamp(0.8rem, 1rem, 1.3rem);
     line-height: 32px;
 }
 
@@ -88,7 +88,7 @@ p {
     }
 
     .linksFlex p {
-        font-size: 0.9rem;
+        // font-size: 0.9rem;
     }
 
     .profileTitle {
@@ -96,7 +96,7 @@ p {
     }
 
     .profileText p {
-        font-size: 0.8rem;
+        // font-size: 0.8rem;
     }
 
     // CONTACT PAGE
@@ -115,13 +115,13 @@ p {
         font-size: 1.4rem;
     }
 
-    .sideText p,
+    // .sideText p,
     .sideText ul {
         font-size: 0.8rem;
     }
 
     .blogPost p {
-        font-size: 0.8rem;
+        // font-size: 0.8rem;
         line-height: 30px;
     }
 }
