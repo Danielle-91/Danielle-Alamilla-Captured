@@ -459,28 +459,69 @@ aside {
 
 @media(max-width: 480px) {
 
-    // GENERAL
-
-    .gridContainer {
-        grid-template-columns: repeat(auto-fill, 160px);
-        grid-template-rows: repeat(28, 100px);
+    aside {
+        height: 100%;
+        flex-direction: column;
     }
 
-    // BLOG
+    .sideBar img {
+        width: 100%;
+    }
+
+    .sideText {
+        width: 96%;
+        flex-direction: column;
+    }
+
+    .sideAbt,
+    .sideRecent {
+        width: 70%;
+        padding: 20px;
+        margin: 0 auto;
+    }
 
     .blogPost {
-        grid-row-end: 17;
+        margin-left: 0;
+    }
+
+    .blogPost p {
+        width: 100%;
     }
 
     // COMMENTS
 
     .comments {
-        grid-row-start: 18;
         margin-top: 0;
     }
 
-    .commentForm form {
+    .cmnt {
         width: 100%;
+        padding: 0;
+        padding-top: 40px;
     }
 
+    .Jeremy,
+    .Julia {
+        flex-direction: column;
+    }
+
+    .Jeremy img,
+    .Julia img {
+        top: 21px;
+        margin: 0 auto;
+    }
+
+    .comments p {
+        width: 360px;
+    }
+
+    .commentForm form {
+        width: 360px;
+        margin: 0 auto;
+    }
+
+    .commentForm input[type=text],
+    .commentForm input[type=email] {
+        width: 90%;
+    }
 }

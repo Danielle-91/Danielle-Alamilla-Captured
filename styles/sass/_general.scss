@@ -65,3 +65,11 @@ button {
     width: 100%;
     margin: 0 auto;
 }
+
+// RESPONSIVE
+
+@media(max-width: 480px) {
+    .blogWrap {
+        width: 90%;
+    }
+}
