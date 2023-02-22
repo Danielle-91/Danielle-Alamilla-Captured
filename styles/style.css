@@ -453,6 +453,13 @@ p {
     font-size: 0.9rem;
   }
 }
+@media (max-width: 650px) {
+  .contactTitle {
+    font-size: 2.2rem;
+    padding-top: 10px;
+    margin: 0 auto;
+  }
+}
 @media (max-width: 480px) {
   .homeTitle {
     font-size: 3rem;
@@ -493,6 +500,9 @@ p {
   .sideText p,
   .sideText ul {
     font-size: 0.6rem;
+  }
+  .contactEmail {
+    font-size: 1rem;
   }
 }
 html {
@@ -688,6 +698,13 @@ p {
     font-size: 0.9rem;
   }
 }
+@media (max-width: 650px) {
+  .contactTitle {
+    font-size: 2.2rem;
+    padding-top: 10px;
+    margin: 0 auto;
+  }
+}
 @media (max-width: 480px) {
   .homeTitle {
     font-size: 3rem;
@@ -729,6 +746,9 @@ p {
   .sideText ul {
     font-size: 0.6rem;
   }
+  .contactEmail {
+    font-size: 1rem;
+  }
 }
 nav {
   display: -webkit-box;
@@ -754,7 +774,7 @@ nav ul {
 }
 
 nav ul li {
-  margin-left: 5%;
+  margin-left: 2%;
 }
 
 nav a:hover,
@@ -1243,6 +1263,13 @@ p {
     font-size: 0.9rem;
   }
 }
+@media (max-width: 650px) {
+  .contactTitle {
+    font-size: 2.2rem;
+    padding-top: 10px;
+    margin: 0 auto;
+  }
+}
 @media (max-width: 480px) {
   .homeTitle {
     font-size: 3rem;
@@ -1283,6 +1310,9 @@ p {
   .sideText p,
   .sideText ul {
     font-size: 0.6rem;
+  }
+  .contactEmail {
+    font-size: 1rem;
   }
 }
 html {
@@ -1478,6 +1508,13 @@ p {
     font-size: 0.9rem;
   }
 }
+@media (max-width: 650px) {
+  .contactTitle {
+    font-size: 2.2rem;
+    padding-top: 10px;
+    margin: 0 auto;
+  }
+}
 @media (max-width: 480px) {
   .homeTitle {
     font-size: 3rem;
@@ -1519,6 +1556,9 @@ p {
   .sideText ul {
     font-size: 0.6rem;
   }
+  .contactEmail {
+    font-size: 1rem;
+  }
 }
 nav {
   display: -webkit-box;
@@ -1544,7 +1584,7 @@ nav ul {
 }
 
 nav ul li {
-  margin-left: 5%;
+  margin-left: 2%;
 }
 
 nav a:hover,
@@ -2395,6 +2435,13 @@ p {
     font-size: 0.9rem;
   }
 }
+@media (max-width: 650px) {
+  .contactTitle {
+    font-size: 2.2rem;
+    padding-top: 10px;
+    margin: 0 auto;
+  }
+}
 @media (max-width: 480px) {
   .homeTitle {
     font-size: 3rem;
@@ -2435,6 +2482,9 @@ p {
   .sideText p,
   .sideText ul {
     font-size: 0.6rem;
+  }
+  .contactEmail {
+    font-size: 1rem;
   }
 }
 html {
@@ -2630,6 +2680,13 @@ p {
     font-size: 0.9rem;
   }
 }
+@media (max-width: 650px) {
+  .contactTitle {
+    font-size: 2.2rem;
+    padding-top: 10px;
+    margin: 0 auto;
+  }
+}
 @media (max-width: 480px) {
   .homeTitle {
     font-size: 3rem;
@@ -2671,6 +2728,9 @@ p {
   .sideText ul {
     font-size: 0.6rem;
   }
+  .contactEmail {
+    font-size: 1rem;
+  }
 }
 nav {
   display: -webkit-box;
@@ -2696,7 +2756,7 @@ nav ul {
 }
 
 nav ul li {
-  margin-left: 5%;
+  margin-left: 2%;
 }
 
 nav a:hover,
@@ -2806,7 +2866,8 @@ footer p {
   margin-right: 50px;
 }
 
-.contactForm input[type=text], .contactForm input[type=email] {
+.contactForm input[type=text],
+.contactForm input[type=email] {
   border: none;
   border-bottom: 2px solid #4CEEA7;
   margin-bottom: 40px;
@@ -2854,6 +2915,14 @@ footer p {
   .contactTitle {
     padding-top: 20%;
     margin-left: 450px;
+  }
+}
+@media (max-width: 650px) {
+  .socialMedia {
+    height: 100px;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
   }
 }
 @media (max-width: 480px) {
@@ -3321,6 +3390,13 @@ p {
     font-size: 0.9rem;
   }
 }
+@media (max-width: 650px) {
+  .contactTitle {
+    font-size: 2.2rem;
+    padding-top: 10px;
+    margin: 0 auto;
+  }
+}
 @media (max-width: 480px) {
   .homeTitle {
     font-size: 3rem;
@@ -3361,6 +3437,9 @@ p {
   .sideText p,
   .sideText ul {
     font-size: 0.6rem;
+  }
+  .contactEmail {
+    font-size: 1rem;
   }
 }
 html {
@@ -3556,6 +3635,13 @@ p {
     font-size: 0.9rem;
   }
 }
+@media (max-width: 650px) {
+  .contactTitle {
+    font-size: 2.2rem;
+    padding-top: 10px;
+    margin: 0 auto;
+  }
+}
 @media (max-width: 480px) {
   .homeTitle {
     font-size: 3rem;
@@ -3597,6 +3683,9 @@ p {
   .sideText ul {
     font-size: 0.6rem;
   }
+  .contactEmail {
+    font-size: 1rem;
+  }
 }
 nav {
   display: -webkit-box;
@@ -3622,7 +3711,7 @@ nav ul {
 }
 
 nav ul li {
-  margin-left: 5%;
+  margin-left: 2%;
 }
 
 nav a:hover,
