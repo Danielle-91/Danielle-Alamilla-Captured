@@ -489,6 +489,12 @@ p {
     font-size: 2.5rem;
   }
 }
+@media (max-width: 350px) {
+  .sideText p,
+  .sideText ul {
+    font-size: 0.6rem;
+  }
+}
 html {
   font-size: 125%;
 }
@@ -716,6 +722,12 @@ p {
   }
   .contactTitle {
     font-size: 2.5rem;
+  }
+}
+@media (max-width: 350px) {
+  .sideText p,
+  .sideText ul {
+    font-size: 0.6rem;
   }
 }
 nav {
@@ -1267,6 +1279,12 @@ p {
     font-size: 2.5rem;
   }
 }
+@media (max-width: 350px) {
+  .sideText p,
+  .sideText ul {
+    font-size: 0.6rem;
+  }
+}
 html {
   font-size: 125%;
 }
@@ -1494,6 +1512,12 @@ p {
   }
   .contactTitle {
     font-size: 2.5rem;
+  }
+}
+@media (max-width: 350px) {
+  .sideText p,
+  .sideText ul {
+    font-size: 0.6rem;
   }
 }
 nav {
@@ -2407,6 +2431,12 @@ p {
     font-size: 2.5rem;
   }
 }
+@media (max-width: 350px) {
+  .sideText p,
+  .sideText ul {
+    font-size: 0.6rem;
+  }
+}
 html {
   font-size: 125%;
 }
@@ -2634,6 +2664,12 @@ p {
   }
   .contactTitle {
     font-size: 2.5rem;
+  }
+}
+@media (max-width: 350px) {
+  .sideText p,
+  .sideText ul {
+    font-size: 0.6rem;
   }
 }
 nav {
@@ -3321,6 +3357,12 @@ p {
     font-size: 2.5rem;
   }
 }
+@media (max-width: 350px) {
+  .sideText p,
+  .sideText ul {
+    font-size: 0.6rem;
+  }
+}
 html {
   font-size: 125%;
 }
@@ -3548,6 +3590,12 @@ p {
   }
   .contactTitle {
     font-size: 2.5rem;
+  }
+}
+@media (max-width: 350px) {
+  .sideText p,
+  .sideText ul {
+    font-size: 0.6rem;
   }
 }
 nav {
@@ -4094,5 +4142,13 @@ aside {
   .commentForm input[type=text],
   .commentForm input[type=email] {
     width: 90%;
+  }
+}
+@media (max-width: 350px) {
+  .comments p {
+    width: 100%;
+  }
+  .commentForm form {
+    width: 100%;
   }
 }

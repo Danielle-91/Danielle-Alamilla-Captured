@@ -525,3 +525,14 @@ aside {
         width: 90%;
     }
 }
+
+@media(max-width: 350px) {
+
+    .comments p {
+        width: 100%;
+    }
+
+    .commentForm form {
+        width: 100%;
+    }
+}
