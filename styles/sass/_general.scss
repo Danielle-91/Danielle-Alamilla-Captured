@@ -1,60 +1,75 @@
-html{
+html {
     font-size: 125%;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
+}
+
+section {
+    width: 100%;
 }
 
 .skip-link {
-  position: absolute;
-  left: -1000px;
-  top: 5px;
-  z-index: 999;
-  background: white;
-  color: black;
+    position: absolute;
+    left: -1000px;
+    top: 5px;
+    z-index: 999;
+    background: white;
+    color: black;
 }
 
 .skip-link:focus {
-  left: 0;
+    left: 0;
 }
 
-h1, h2, h3, h4 p{
+h1,
+h2,
+h3,
+h4 p {
     margin: 0;
     padding: 0;
 }
 
-.wrapper{
+.wrapper {
     max-width: 1280px;
     width: 90%;
     margin: 0 auto;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-ul{
+ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-img{
+img {
     max-width: 100%;
     height: auto;
 }
 
-button{
+button {
     background-color: #4CEEA7;
     padding: 10px;
     border: none;
 }
 
-.blogWrap{
+.blogWrap {
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
+}
+
+// RESPONSIVE
+
+@media(max-width: 480px) {
+    .blogWrap {
+        width: 90%;
+    }
 }
