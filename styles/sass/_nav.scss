@@ -1,12 +1,12 @@
 @import 'general';
 @import 'typography';
 
-nav{
+nav {
     display: flex;
     margin-right: 8%;
 }
 
-nav ul{
+nav ul {
     padding-top: 1%;
     display: flex;
     width: 100%;
@@ -15,30 +15,31 @@ nav ul{
     justify-content: flex-end;
 }
 
-nav ul li{
-    margin-left: 5%;
+nav ul li {
+    margin-left: 2%;
 }
+
 nav a:hover,
 nav a:focus,
-nav a:focus-within{
+nav a:focus-within {
     border-bottom: 3px solid #4ceea7;
 }
 
-nav i{
-  font-size: 2.5rem;
-  position: absolute;
-  right: 50px;
-  top: 20px;
-  visibility: hidden;
+nav i {
+    font-size: 2.5rem;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    visibility: hidden;
 }
 
 // RESPONSIVE STYLING
-@media (max-width: 768px){
-    nav i{
+@media (max-width: 768px) {
+    nav i {
         visibility: visible;
     }
 
-    nav ul{
+    nav ul {
         display: none;
     }
 }
