@@ -3,7 +3,7 @@
 
 nav {
     display: flex;
-    margin-right: 8%;
+    width: 92%;
 }
 
 nav ul {
@@ -31,6 +31,43 @@ nav i {
     right: 50px;
     top: 20px;
     visibility: hidden;
+    cursor: pointer;
+}
+
+.toggle {
+    z-index: 2;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.mobileMenu {
+    background-color: #EFFDF3;
+    width: 0%;
+    height: 25vh;
+    transition: all 0.4s ease-in-out;
+}
+
+.toggle:checked~.mobileMenu {
+    width: 50%;
+}
+
+.mobileMenu ul {
+    display: flex;
+    flex-direction: column;
+    position: static;
+    padding: 35px;
+    visibility: hidden;
+}
+
+.toggle:checked~.mobileMenu ul {
+    transition: visibility 0.4s ease-in-out;
+    transition-delay: 0.1s;
+    visibility: visible;
 }
 
 // RESPONSIVE STYLING
